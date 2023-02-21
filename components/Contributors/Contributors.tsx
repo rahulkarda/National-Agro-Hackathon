@@ -180,7 +180,6 @@ const HeroSection: React.FC = () => {
                       spacing={{ xs: 5, lg: 5 }}
                     >
                       <Text>Anjali Parihar</Text>
-                      <Text>Gunjan Bangde</Text>
                       <Text>Shreysi Swaraj</Text>
                       <Text>Shreyansh Sharma</Text>
                       <Text>Aditya Sharma</Text>
