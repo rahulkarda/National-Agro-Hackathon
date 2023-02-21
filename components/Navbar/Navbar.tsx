@@ -56,42 +56,38 @@ const Navbar: React.FC = () => {
           </a>
           <Flex display={{ xs: "none", sm: "flex" }} align="center">
             <Link href="/">
-              <a>
-                <Text
-                  borderRadius="3px"
-                  mt="0.5rem"
-                  sx={{
-                    textDecoration: page.includes("/") ? "none" : "underline",
-                  }}
-                  textUnderlineOffset="4px"
-                  height="44px"
-                  fontSize="2xl"
-                  color="primary"
-                >
-                  Home
-                </Text>
-              </a>
+              <Text
+                borderRadius="3px"
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("/") ? "none" : "underline",
+                }}
+                textUnderlineOffset="4px"
+                height="44px"
+                fontSize="2xl"
+                color="primary"
+              >
+                Home
+              </Text>
             </Link>
             <Link href="/contributors">
-              <a>
-                <Text
-                  ml="1rem"
-                  borderRadius="3px"
-                  mt="0.5rem"
-                  sx={{
-                    textDecoration: page.includes("contributors")
-                      ? "underline"
-                      : "none",
-                  }}
-                  textUnderlineOffset="4px"
-                  height="44px"
-                  fontSize="2xl"
-                  p="0 25px"
-                  color="primary"
-                >
-                  Contributors
-                </Text>
-              </a>
+              <Text
+                ml="1rem"
+                borderRadius="3px"
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("contributors")
+                    ? "underline"
+                    : "none",
+                }}
+                textUnderlineOffset="4px"
+                height="44px"
+                fontSize="2xl"
+                p="0 25px"
+                color="primary"
+              >
+                Contributors
+              </Text>
             </Link>
             <a href="https://lnct.ac.in/" target="_blank">
               <Button
@@ -168,23 +164,21 @@ const Navbar: React.FC = () => {
                   </a>
                 </Link>
                 <Link href="/contributors">
-                  <a>
-                    <Text
-                      borderRadius="3px"
-                      sx={{
-                        textDecoration: page.includes("contributors")
-                          ? "underline"
-                          : "none",
-                      }}
-                      textUnderlineOffset="4px"
-                      mt="0.5rem"
-                      height="44px"
-                      fontSize="2xl"
-                      color="primary"
-                    >
-                      Contributors
-                    </Text>
-                  </a>
+                  <Text
+                    borderRadius="3px"
+                    sx={{
+                      textDecoration: page.includes("contributors")
+                        ? "underline"
+                        : "none",
+                    }}
+                    textUnderlineOffset="4px"
+                    mt="0.5rem"
+                    height="44px"
+                    fontSize="2xl"
+                    color="primary"
+                  >
+                    Contributors
+                  </Text>
                 </Link>
                 <a href="https://lnct.ac.in/" target="_blank">
                   <Button

@@ -45,8 +45,9 @@ const ThemeCarousel: React.FC<Props> = () => {
         infiniteLoop={true}
         showArrows={true}
       >
-        {carouselData.map((item) => (
+        {carouselData.map((item, i) => (
           <Flex
+            key={`${i}-${item.text}`}
             flexDirection="column"
             justifyContent="center"
             alignItems="center"

@@ -11,22 +11,13 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaMedal } from "react-icons/fa";
 import { GiGears } from "react-icons/gi";
 import { IoEarthSharp } from "react-icons/io5";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 
 import Reveal from "../library/Reveal";
 import animationData from "@/public/assets/why_lottie.json";
 import ThemeCarousel from "./Carousel";
 
 const WhyJoin: React.FC = () => {
-  const lottieOptions = {
-    loop: true,
-    autoplay: true,
-    animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
     <Box
       width="100%"
@@ -47,7 +38,11 @@ const WhyJoin: React.FC = () => {
               >
                 Why Join ?
               </Text>
-              <Lottie options={lottieOptions} height="100%" width="auto" />
+              <Lottie
+                animationData={animationData}
+                height="100%"
+                width="auto"
+              />
             </Reveal>
           </Box>
           <Box ml={{ lg: "8.3%" }} width={{ lg: "50%" }}>

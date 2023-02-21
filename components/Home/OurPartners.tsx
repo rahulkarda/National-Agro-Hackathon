@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Flex, Text, Container, Button } from "@chakra-ui/react";
 import ReactPlayer from "react-player";
 
 import Reveal from "../library/Reveal";
 
 const OurPartners: React.FC = () => {
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <Box
       width="100%"
@@ -62,13 +66,15 @@ const OurPartners: React.FC = () => {
               maxWidth="100%"
               height={{ xs: "184px", lg: "348px" }}
             >
-              <ReactPlayer
-                width="100%"
-                height="100%"
-                controls
-                light={true}
-                url="https://www.youtube.com/watch?v=CtNDtUeVqd8"
-              />
+              {loaded && (
+                <ReactPlayer
+                  width="100%"
+                  height="100%"
+                  controls
+                  light={true}
+                  url="https://www.youtube.com/watch?v=CtNDtUeVqd8"
+                />
+              )}
             </Box>
           </Reveal>
           <Reveal>

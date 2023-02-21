@@ -1,14 +1,14 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Head from "next/head";
 import Navbar from "components/Navbar/Navbar";
 import Footer from "./Footer/Footer";
 
 interface Props {
   title?: string;
-  children?: ReactNode;
+  children?: any;
 }
 
-const Layout: React.FC = ({ children }: Props) => (
+const Layout: React.FC<Props> = ({ children }) => (
   <>
     <Head>
       <title>STEM Model Competition</title>
