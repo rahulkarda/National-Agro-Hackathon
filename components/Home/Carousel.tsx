@@ -11,24 +11,24 @@ type Props = {
 const ThemeCarousel: React.FC<Props> = () => {
   const carouselData = [
     {
-      text: "Agriculture",
+      text: "Precision Agriculture",
       icon: "agriculture",
     },
     {
-      text: "Public Transportation or Public Safety",
-      icon: "transportation",
+      text: "Supply Chain & Agriculture Logistics",
+      icon: "waste",
     },
     {
-      text: "Home Automation & Application",
-      icon: "smart_system",
+      text: "Post-Harvest, Food Technology & Value addition",
+      icon: "value",
     },
     {
-      text: "Renewable Energy",
+      text: "Waste to Wealth & Green Energy in Agricuture",
       icon: "renewable",
     },
     {
-      text: "Waste Management",
-      icon: "waste",
+      text: "Miscellaneous",
+      icon: "",
     },
     {
       text: "Open Innovation",

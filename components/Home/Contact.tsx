@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
                 as={FiInstagram}
               />
             </a>
-            <a href="https://lnct.ac.in/" target="_blank">
+            <a href="https://hackathonclub.lnct.ac.in/" target="_blank">
               <Icon
                 ml="1rem"
                 bg="primary"

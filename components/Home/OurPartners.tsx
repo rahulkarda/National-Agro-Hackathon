@@ -37,7 +37,7 @@ const OurPartners: React.FC = () => {
                 fontSize={{ xs: "2xl", lg: "3xl" }}
                 fontWeight="700"
               >
-                About Innovative STEM Model Competition – 2021 Version 1.0
+                About National Agro Hackathon – 2023 Version 1.0
               </Text>
               <Text
                 textAlign="justify"
@@ -45,12 +45,11 @@ const OurPartners: React.FC = () => {
                 color="white"
                 mr={{ sm: "2rem" }}
               >
-                STEM competitions allow for school’s student teams (from class 9
-                to class 12) to solve a specific challenge or problem through
+                Hackathon competitions allow for student teams to solve a specific challenge or problem through
                 science, technology, engineering, or mathematics. Many of these
                 challenges are rooted in real-world issues, encouraging
                 participants to use creativity and critical thinking in order to
-                come up with innovative solutions. STEM competitions provide
+                come up with innovative solutions.  competitions provide
                 much-needed structure to those who are just looking to get
                 started in science, technology, engineering, and math, while
                 also acting as a skill-building opportunity for those further

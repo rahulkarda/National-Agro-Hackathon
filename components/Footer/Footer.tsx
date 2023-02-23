@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <Box width="100%" py="1rem">
       <Container>
         <Text color="gray.700" textAlign="center">
-          Copyright © 2021 LNCT
+          Copyright © 2023 LNCT
         </Text>
       </Container>
     </Box>

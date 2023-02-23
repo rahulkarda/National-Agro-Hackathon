@@ -11,7 +11,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }) => (
   <>
     <Head>
-      <title>STEM Model Competition</title>
+      <title>National Agro Hackathon</title>
       <meta
         name="description"
         content="STEM Model Competition organized by LNCT Group of Colleges"
