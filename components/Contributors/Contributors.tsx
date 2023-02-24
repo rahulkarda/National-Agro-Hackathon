@@ -145,12 +145,12 @@ const HeroSection: React.FC = () => {
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
                     >
-                      <Text>Diksha Akankshi</Text>
-                      <Text>Nancy Sahu</Text>
-                      <Text>Somya Sahu</Text>
-                      <Text>Vinay Pandey</Text>
-                      <Text>Mobassir</Text>
-                      <Text>Chikku</Text>{" "}
+                      <Text>Rahul Karda</Text>
+                      <Text>Ayush Galphat</Text>
+                      <Text>Varsha Sharma</Text>
+                      <Text>Aaditya Agarwal</Text>
+                      {/* <Text></Text> */}
+                      {/* <Text></Text>{" "} */}
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -163,10 +163,10 @@ const HeroSection: React.FC = () => {
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
                     >
-                      <Text>Uttam Kumar</Text>
-                      <Text>Athrava Srivastava</Text>
-                      <Text>Ranveer Raj</Text>
-                      <Text>Yashraj Pany</Text>{" "}
+                      <Text>Rahul Karda</Text>
+                      <Text>Varsha Sharma</Text>
+                      <Text>Ayush Galphat</Text>
+                      <Text>Jui Kamone</Text>{" "}
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -179,11 +179,11 @@ const HeroSection: React.FC = () => {
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
                     >
-                      <Text>Anjali Parihar</Text>
-                      <Text>Shreysi Swaraj</Text>
-                      <Text>Shreyansh Sharma</Text>
-                      <Text>Aditya Sharma</Text>
+                      <Text>Rahul Karda</Text>
+                      <Text>Aaditya Agarwal</Text>
                       <Text>Soumya Jain</Text>
+                      <Text></Text>
+                      <Text></Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>

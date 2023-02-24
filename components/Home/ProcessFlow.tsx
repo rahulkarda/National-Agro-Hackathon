@@ -75,7 +75,7 @@ const ProcessFlow: React.FC = () => {
                     </AccordionButton>
                     <AccordionPanel pb={4}>
                       <Text fontSize="2xl">
-                        School students can participate under two category:
+                        College students can participate under two category:
                       </Text>
                       <UnorderedList fontSize="2xl">
                         <ListItem>Category I: Class 6th, 7th & 8th</ListItem>
@@ -124,7 +124,7 @@ const ProcessFlow: React.FC = () => {
                           Team Leader.
                         </ListItem>
                         <ListItem>
-                          School photo ID is mandatory for participating in the
+                          College photo ID is mandatory for participating in the
                           finale.
                         </ListItem>
                         <ListItem>One team can submit ONLY one idea.</ListItem>
@@ -134,7 +134,7 @@ const ProcessFlow: React.FC = () => {
                         </ListItem>
                         <ListItem>
                           Team Name should be unique and not contain the name of
-                          their school in any form.
+                          their College in any form.
                         </ListItem>
                       </UnorderedList>
                     </AccordionPanel>
@@ -174,7 +174,7 @@ const ProcessFlow: React.FC = () => {
                         The cash prize will be given to each category
                       </Text>
                       <UnorderedList fontSize="2xl">
-                        <ListItem>First Prize : Rs 20,000/-</ListItem>
+                        <ListItem>First Prize : Rs 25,000/-</ListItem>
                         <ListItem>Second Prize : Rs 15,000/-</ListItem>
                         <ListItem>Third Prize : Rs 10,000/-</ListItem>
                       </UnorderedList>
@@ -213,19 +213,19 @@ const ProcessFlow: React.FC = () => {
                     <AccordionPanel pb={4}>
                       <UnorderedList fontSize="2xl">
                         <ListItem>
-                          Idea Submission Deadline: July 30, 2021
+                          Idea Submission Deadline: July 30, 2023
                         </ListItem>
                         <ListItem>
-                          Shortlist for Idea Submission: August 3, 2021
+                          Shortlist for Idea Submission: August 3, 2023
                         </ListItem>
                         <ListItem>
-                          Second Round Idea Presentation: August 5 & 6, 2021
+                          Second Round Idea Presentation: August 5 & 6, 2023
                         </ListItem>
                         <ListItem>
-                          Shortlist for Prototype Demonstration: August 10, 2021
+                          Shortlist for Prototype Demonstration: August 10, 2023
                         </ListItem>
                         <ListItem>
-                          Final Round Prototype Demonstration: August 20, 2021
+                          Final Round Prototype Demonstration: August 20, 2023
                         </ListItem>
                       </UnorderedList>
                     </AccordionPanel>
@@ -264,9 +264,9 @@ const ProcessFlow: React.FC = () => {
                       <Text fontSize="2xl">
                         We are happy to announce that your innovation idea has
                         been selected for Idea Presentation round (Second) in
-                        National Innovative STEM Model Competition – 2021
+                        National Agro Hackathon – 2023
                         Version 1.0. The presentation will be held category wise
-                        on 5, 6 & 7 August 2021 through Zoom Meeting. The time
+                        on 31st March, 2023 through Zoom Meeting. The time
                         schedule & date will be informed you by WhatsApp group.
                       </Text>
                       <UnorderedList mt="0.5rem" fontSize="2xl">
@@ -364,12 +364,12 @@ const ProcessFlow: React.FC = () => {
                       <Text fontSize="2xl">
                         We are happy to announce that your innovation idea has
                         been selected for Grand Finale (Prototype
-                        Demonstration/Working Model) in National Innovative STEM
-                        Model Competition – 2021 Version 1.0.
+                        Demonstration/Working Model) in National Agro Hackathon
+                        – 2023 Version 1.0.
                       </Text>
                       <Text fontSize="xl">
                         Note: You have to submit your Project Demonstration
-                        Video (for 5 minutes) up to August 20, 2021. The video
+                        Video (for 5 minutes) up to August 20, 2023. The video
                         will be uploading through Google form which will be sent
                         you earliest.
                       </Text>
@@ -454,7 +454,7 @@ const ProcessFlow: React.FC = () => {
             delay={0.4}
             mt="3rem"
           >
-            <a href="https://bit.ly/SCHOOL-STEM-MODEL" target="_blank">
+            <a href="" target="_blank">
               <Button
                 borderRadius="3px"
                 bg="primary"

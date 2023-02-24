@@ -140,11 +140,11 @@ const WhyJoin: React.FC = () => {
         >
           <Reveal width={{ xs: "100%", md: "45%" }}>
             <UnorderedList color="white" fontSize="2xl">
-              <ListItem>Agriculture</ListItem>
-              <ListItem>Public Transportation or Public Safety</ListItem>
-              <ListItem>Home Automation & Application</ListItem>
-              <ListItem>Renewable Energy</ListItem>
-              <ListItem>Waste Management</ListItem>
+              <ListItem>Precision Agriculture inciuding applications of sensors, WEN, ICT, Artificial intelligence, IOT & drone</ListItem>
+              <ListItem>Supply Chain & Agriculture Logistics</ListItem>
+              <ListItem>Post-Harvest, Food Technology & Value addition</ListItem>
+              <ListItem>Waste to Wealth & Green Energy in Agricuture</ListItem>
+              <ListItem>Miscellaneous</ListItem>
               <ListItem>Open Innovation</ListItem>
             </UnorderedList>
           </Reveal>

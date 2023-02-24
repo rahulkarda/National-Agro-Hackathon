@@ -68,7 +68,7 @@ const HeroSection: React.FC = () => {
               <Box>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "2xl", lg: "1.8rem" }}
+                  fontSize={{ xs: "3xl", lg: "1.8rem" }}
                   fontWeight="700"
                   textAlign={{ xs: "center", lg: "left" }}
                   color="primary"
@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
                   lineHeight="1.2"
                   mb={{ xs: "1rem", lg: "3rem" }}
                 >
-                  National Innovative STEM Model Competition – 2021
+                  National Agro Hackathon – 2023
                   <br />
                   <Text as="span" fontSize={{ xs: "2xl", lg: "1.8rem" }}>
                     Version 1.0
@@ -96,10 +96,10 @@ const HeroSection: React.FC = () => {
                   color="#14213d"
                   mb="1rem"
                 >
-                  LNCT Group Hackathon Club along with LNCT World School is
-                  going to start a new initiative to provide School student’s
+                  LNCT Group Hackathon Club along with LNCT Kalchuri Incubation Centre is
+                  going to start a new initiative to provide College student’s
                   platform to solve some of the pressing problem related to real
-                  life under an event “Innovative STEM Model Competition – 2021
+                  life under an event “National Agro Hackathon – 2023
                   Version 1.0”
                 </Text>
               </Box>
@@ -110,7 +110,7 @@ const HeroSection: React.FC = () => {
               delay={0.4}
               mt="3rem"
             >
-              <a href="https://bit.ly/SCHOOL-STEM-MODEL" target="_blank">
+              <a href="" target="_blank">
                 <Button
                   borderRadius="3px"
                   bg="primary"
