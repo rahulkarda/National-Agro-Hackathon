@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
   return (
     <Flex
       alignItems="center"
-      height={{ lg: "100vh" }}
+      height={{ lg: "55vw" }}
       width="100%"
       p={{ xs: "40px 0 60px", sm: "140px 0 130px" }}
     >
@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
                 mt="1rem"
                 mb="2rem"
                 width={{ xs: "90%", md: "70%", lg: "150%" }}
-                columns={{ xs: 2, sm: 7 }}
+                columns={{ xs: 2, sm: 8 }}
                 spacing={{ xs: 10, lg: 5 }}
               >
                 <Reveal>
@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
                   <Img my="auto" width="100%" src="/assets/logo.png" />
                 </Reveal>
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/25.png" />
+                  <Img my="auto" width="100%" src="/assets/30.png" />
                 </Reveal>
                 <Reveal>
                   <Img my="auto" width="100%" src="/assets/nirf.jpg" />
@@ -63,6 +63,9 @@ const HeroSection: React.FC = () => {
                 </Reveal>
                 <Reveal>
                   <Img my="auto" width="100%" src="/assets/IIC.png" />
+                </Reveal>
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/g20.png" />
                 </Reveal>
               </SimpleGrid>
               <Box>
@@ -96,11 +99,14 @@ const HeroSection: React.FC = () => {
                   color="#14213d"
                   mb="1rem"
                 >
-                  LNCT Group Hackathon Club along with LNCT Kalchuri Incubation Centre is
-                  going to start a new initiative to provide College student’s
-                  platform to solve some of the pressing problem related to real
-                  life under an event “National Agro Hackathon – 2023
-                  Version 1.0”
+                  LNCT Group Hackathon Club is organising a “National Agro Hackathon - 2023, Version 1.0”, aimed at bringing together a diverse group of individuals with a passion for agriculture to develop creative and innovative solutions to the challenges facing by this sector.
+                </Text>
+                <Text
+                  textAlign={{ xs: "center", lg: "left" }}
+                  color="#14213d"
+                  mb="1rem"
+                >
+                  The Agriculture Hackathon will provide a platform for participants to collaborate and work with like-minded individuals, learn from industry experts and gain valuable exposure to the latest technologies and trends in agriculture. 
                 </Text>
               </Box>
             </Reveal>
