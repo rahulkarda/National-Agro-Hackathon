@@ -152,6 +152,7 @@ const Contact: React.FC = () => {
               </Flex>
             </Flex>
             <Flex
+              mt="3rem"
               alignItems="center"
               direction="column"
               justifyContent="center"

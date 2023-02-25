@@ -14,7 +14,7 @@ import Reveal from "../library/Reveal";
 
 const HeroSection: React.FC = () => {
   return (
-    <Flex width="100%" p="180px 0 130px">
+    <Flex width="100%" p="120px 0 130px">
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
           alignItems="center"
@@ -87,27 +87,17 @@ const HeroSection: React.FC = () => {
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
                     >
-                      <Text>Prof Alka Gulati</Text>
+                      <Text>Dr. V. N. Bartariya</Text>
+                      <Text>Dr. Alka Gulati</Text>
+                      <Text>Dr. Bhawna Pillai</Text>
+                      <Text>Dr. Tripti Saxena</Text>
                       <Text>Dr. Aparna Gupta</Text>
                       <Text>Prof Naveen Asathi</Text>
-                      <Text>Prof Bhawna Pillai</Text>
-                      <Text>Dr. Tripti Saxena</Text>
-                      <Text>Prof. Jay Prakash Maurya</Text>
-                      <Text>Prof. Vivek Kumar</Text>
                       <Text>Prof Megha Jain</Text>
-                      <Text>Prof Harendra Singh</Text>
-                      <Text>Prof. Vishw Gupta</Text>
-                      <Text>Prof. Kamlesh Chandravanshi</Text>
                       <Text>Prof. Shraddha Shrivastava</Text>
                       <Text>Prof. Prakhar Bhadauriya</Text>
                       <Text>Prof Sachin Nikkam</Text>
-                      <Text>Dr. Guarav Jain</Text>
-                      <Text>Prof. Rohit Singh</Text>
-                      <Text>Prof. Prem Kumar Soni</Text>
-                      <Text>Prof. Gaurav Nayak</Text>
-                      <Text>Prof. Prashant Chaturvedi</Text>
-                      <Text>Prof. Mohd. Monis Khan</Text>
-                      <Text>Prof. Juhi Nigam</Text>
+                      <Text>Dr. Prashant Chaturvedi</Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -117,7 +107,7 @@ const HeroSection: React.FC = () => {
           <Reveal left>
             <Text
               as="h1"
-              mt="3rem"
+              mt="4rem"
               fontSize={{ xs: "4xl", lg: "5xl" }}
               fontWeight="700"
               textAlign="center"
@@ -146,11 +136,7 @@ const HeroSection: React.FC = () => {
                       spacing={{ xs: 5, lg: 5 }}
                     >
                       <Text>Rahul Karda</Text>
-                      <Text>Ayush Galphat</Text>
-                      <Text>Varsha Sharma</Text>
-                      <Text>Aaditya Agarwal</Text>
-                      {/* <Text></Text> */}
-                      {/* <Text></Text>{" "} */}
+                      <Text>Gunjan Bangde</Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -166,7 +152,13 @@ const HeroSection: React.FC = () => {
                       <Text>Rahul Karda</Text>
                       <Text>Varsha Sharma</Text>
                       <Text>Ayush Galphat</Text>
-                      <Text>Jui Kamone</Text>{" "}
+                      <Text>Rajkumar Malpani</Text>
+                      <Text>Jui Kamone</Text>
+                      <Text>Princess Soni</Text>
+                      <Text>Om Golhani</Text>
+                      <Text>Raj Raghuwanshi</Text>
+                      <Text>Kartik Sahu</Text>
+                      <Text>Kartik Singh Kushwah</Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -180,8 +172,11 @@ const HeroSection: React.FC = () => {
                       spacing={{ xs: 5, lg: 5 }}
                     >
                       <Text>Rahul Karda</Text>
+                      <Text>Varsha Sharma</Text>
+                      <Text>Princess Soni</Text>
+                      <Text>Ayush Galphat</Text>
                       <Text>Aaditya Agarwal</Text>
-                      <Text>Soumya Jain</Text>
+                      <Text>Rajkumar Malpani</Text>
                       <Text></Text>
                       <Text></Text>
                     </SimpleGrid>

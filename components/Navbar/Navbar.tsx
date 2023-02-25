@@ -47,20 +47,20 @@ const Navbar: React.FC = () => {
           alignItems="center"
           justifyContent="space-between"
         >
-          <a href="https://lnct.ac.in/" target="_blank">
+          <Link href="https://lnct.ac.in/" target="_blank">
             <Img
               src="/assets/logo.png"
               maxHeight="100%"
               width={{ xs: "136px", sm: "163px" }}
             />
-          </a>
+          </Link>
           <Flex display={{ xs: "none", sm: "flex" }} align="center">
             <Link href="/">
               <Text
                 borderRadius="3px"
                 mt="0.5rem"
                 sx={{
-                  textDecoration: page.includes("/") ? "none" : "underline",
+                  textDecoration: page.includes("") ? "none" : "underline",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
                 borderRadius="3px"
                 mt="0.5rem"
                 sx={{
-                  textDecoration: page.includes("/") ? "none" : "underline",
+                  textDecoration: page.includes("problems") ? "underline" : "none",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
@@ -107,14 +107,8 @@ const Navbar: React.FC = () => {
             </Link>
             <Link href="https://lnct.ac.in/">
               <Text
-                
                 borderRadius="3px"
                 mt="0.5rem"
-                sx={{
-                  textDecoration: page.includes("contributors")
-                    ? "underline"
-                    : "none",
-                }}
                 textUnderlineOffset="4px"
                 height="44px"
                 fontSize="2xl"
@@ -124,7 +118,7 @@ const Navbar: React.FC = () => {
                 About Us
               </Text>
             </Link>
-            <a href="" target="_blank">
+            <Link href="" target="_blank">
               <Button
                 ml="1rem"
                 borderRadius="3px"
@@ -138,7 +132,7 @@ const Navbar: React.FC = () => {
               >
                 Register Now
               </Button>
-            </a>
+            </Link>
           </Flex>
           <IconButton
             display={{ xs: "flex", sm: "none" }}
@@ -166,23 +160,34 @@ const Navbar: React.FC = () => {
               </DrawerHeader>
               <DrawerBody display="flex" flexDirection="column">
                 <Link href="/">
-                  <a>
-                    <Text
-                      borderRadius="3px"
-                      sx={{
-                        textDecoration: page.includes("")
-                          ? "none"
-                          : "underline",
-                      }}
-                      textUnderlineOffset="4px"
-                      mt="0.5rem"
-                      height="44px"
-                      fontSize="2xl"
-                      color="primary"
-                    >
-                      Home
-                    </Text>
-                  </a>
+                  <Text
+                    borderRadius="3px"
+                    sx={{
+                      textDecoration: page.includes("") ? "none" : "underline",
+                    }}
+                    textUnderlineOffset="4px"
+                    mt="0.5rem"
+                    height="44px"
+                    fontSize="2xl"
+                    color="primary"
+                  >
+                    Home
+                  </Text>
+                </Link>
+                <Link href="/problems">
+                  <Text
+                    borderRadius="3px"
+                    mt="0.5rem"
+                    sx={{
+                      textDecoration: page.includes("/") ? "none" : "underline",
+                    }}
+                    textUnderlineOffset="4px"
+                    height="44px"
+                    fontSize="2xl"
+                    color="primary"
+                  >
+                    Problem Statements
+                  </Text>
                 </Link>
                 <Link href="/contributors">
                   <Text
@@ -201,27 +206,29 @@ const Navbar: React.FC = () => {
                     Contributors
                   </Text>
                 </Link>
-                <a href="https://lnct.ac.in/" target="_blank">
-                  <Button
-                    mr="1rem"
+                <Link href="https://lnct.ac.in/">
+                  <Text
                     borderRadius="3px"
-                    height="44px"
-                    p="0 25px"
-                    mb="1rem"
-                    width="150px"
-                    color="white"
-                    bg="primary"
-                    _hover={{
-                      bg: "linkedin.300",
+                    mt="0.5rem"
+                    sx={{
+                      textDecoration: page.includes("contributors")
+                        ? "underline"
+                        : "none",
                     }}
+                    textUnderlineOffset="4px"
+                    height="44px"
+                    fontSize="2xl"
+                    color="primary"
                   >
                     About Us
-                  </Button>
-                </a>
-                <a href="https://bit.ly/SCHOOL-STEM-MODEL" target="_blank">
+                  </Text>
+                </Link>
+
+                <Link href="" target="_blank">
                   <Button
                     borderRadius="3px"
                     height="44px"
+                    mt="0.5rem"
                     p="0 25px"
                     mb="1rem"
                     width="150px"
@@ -233,7 +240,7 @@ const Navbar: React.FC = () => {
                   >
                     Register Now
                   </Button>
-                </a>
+                </Link>
               </DrawerBody>
             </DrawerContent>
           </Drawer>
