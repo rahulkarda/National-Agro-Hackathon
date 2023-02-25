@@ -40,16 +40,19 @@ const HeroSection: React.FC = () => {
                 spacing={{ xs: 10, lg: 5 }}
               >
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/NBA.png" />
-                </Reveal>
-                <Reveal>
                   <Img my="auto" width="100%" src="/assets/logo.png" />
                 </Reveal>
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/30.png" />
+                  <Img my="auto" width="100%" src="/assets/g20.png" />
                 </Reveal>
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/nirf.jpg" />
+                  <Img my="auto" width="100%" src="/assets/IIC.png" />
+                </Reveal>
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/nirf.png" />
+                </Reveal>
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/NBA.png" />
                 </Reveal>
                 <Reveal>
                   <Img
@@ -59,14 +62,12 @@ const HeroSection: React.FC = () => {
                   />
                 </Reveal>
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/gallery/11.jpg" />
+                  <Img my="auto" width="100%" src="/assets/30.png" />
                 </Reveal>
-                <Reveal>
-                  <Img my="auto" width="100%" src="/assets/IIC.png" />
-                </Reveal>
-                <Reveal>
-                  <Img my="auto" width="100%" src="/assets/g20.png" />
-                </Reveal>
+                {/* <Reveal>
+                  <Img my="auto" width="100%" src="/assets/" />
+                </Reveal> */}
+                
               </SimpleGrid>
               <Box>
                 <Text

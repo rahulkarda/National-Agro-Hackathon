@@ -75,6 +75,7 @@ const HeroSection: React.FC = () => {
                       spacing={{ xs: 5, lg: 5 }}
                     >
                       <Text>Dr. Vineet Richhariya</Text>
+                      <Text>Dr. Sadhna K. Mishra</Text>
                       <Text>Dr. Bhupesh Gour</Text>
                       <Text>Dr. Anoop Chaturvedi</Text>
                     </SimpleGrid>
