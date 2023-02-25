@@ -14,12 +14,12 @@ const Layout: React.FC<Props> = ({ children }) => (
       <title>National Agro Hackathon</title>
       <meta
         name="description"
-        content="STEM Model Competition organized by LNCT Group of Colleges"
+        content="National Agro Hackathon organized by LNCT Group of Colleges"
       />
       <meta property="og:title" content="LNCT Hackathon" />
       <meta
         property="og:description"
-        content="STEM Model Competition organized by LNCT Group of Colleges"
+        content="National Agro Hackathon organized by LNCT Group of Colleges"
       />
       <meta
         property="og:image"

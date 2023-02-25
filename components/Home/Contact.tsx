@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
               />
             </a>
           </Reveal>
-          <Reveal>
+          <Reveal mt="5rem">
             <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem">
               Contact Us
             </Text>
@@ -106,6 +106,7 @@ const Contact: React.FC = () => {
             justifyContent="center"
           >
             <Flex
+              mt="3rem"
               alignItems="center"
               direction="column"
               justifyContent="center"
@@ -159,16 +160,16 @@ const Contact: React.FC = () => {
                 color="white"
                 bg="primary"
                 size="2xl"
-                name="Jay Prakash Mourya"
+                name="Tripti Saxena"
               />
               <Text mt="1rem" fontSize="2xl">
-                Prof. Jay Prakash Mourya
+                Prof. Tripti Saxena
               </Text>
               <Text mb="1rem" fontSize="2xl">
                 Asst. Professor, CSE
               </Text>
               <Flex>
-                <a href="mailto:jayprakashm@lnct.ac.in?subject=Query Regarding Hackathon">
+                <a href="mailto:triptis@lnct.ac.in?subject=Query Regarding Hackathon">
                   <Icon
                     bg="primary"
                     color="white"
@@ -179,7 +180,7 @@ const Contact: React.FC = () => {
                     as={HiOutlineMail}
                   />
                 </a>
-                <a href="tel:7354549227">
+                <a href="tel:9753485817">
                   <Icon
                     ml="1rem"
                     bg="primary"

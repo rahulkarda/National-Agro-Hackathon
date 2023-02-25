@@ -49,15 +49,9 @@ const OurPartners: React.FC = () => {
                 science, technology, engineering, or mathematics. Many of these
                 challenges are rooted in real-world issues, encouraging
                 participants to use creativity and critical thinking in order to
-                come up with innovative solutions.  competitions provide
-                much-needed structure to those who are just looking to get
-                started in science, technology, engineering, and math, while
-                also acting as a skill-building opportunity for those further
-                along in coding, game development, robotics, and much more.
-                Benefits of STEM competitions include opportunities for students
-                to think critically and work autonomously in some instances, or
-                in others, to work together in teams, strengthening
-                collaborative and social skills.
+                come up with innovative solutions. <br /> <br />
+                
+                The Agriculture Hackathon will provide a platform for participants to collaborate and work with like-minded individuals, learn from industry experts and gain valuable exposure to the latest technologies and trends in agriculture. 
               </Text>
             </Box>
             <Box
@@ -98,11 +92,16 @@ const OurPartners: React.FC = () => {
               Diploma, Bachelor, Master's and Doctorate­ level programs with
               campuses in five locations in Madhya Pradesh & Chhattisgarh
               including the cities of Bhopal, Indore, Gwalior, Jabalpur and
-              Bilaspur. LNCT Group of College to meet the ever increasing
+              Bilaspur. <br /> <br />
+              
+              LNCT Group of College to meet the ever increasing
               demands for higher education in India. LNCT Group is one of the
               Group institutes of its size in the India to offer program in 5
               varied field study: Engineering, Management, Pharmacy, Medical,
               Homeopathy, Dental and recurring and professional studies.
+
+              <br /> <br />
+
               Education is not the only area we work in. We also so take
               responsibility for the improvement of community around us. This
               instills in the students a feeling of responsibility and concern

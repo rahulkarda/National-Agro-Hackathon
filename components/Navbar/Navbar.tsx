@@ -70,6 +70,22 @@ const Navbar: React.FC = () => {
                 Home
               </Text>
             </Link>
+            <Link href="/problems">
+              <Text
+                ml="3rem"
+                borderRadius="3px"
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("/") ? "none" : "underline",
+                }}
+                textUnderlineOffset="4px"
+                height="44px"
+                fontSize="2xl"
+                color="primary"
+              >
+                Problem Statements
+              </Text>
+            </Link>
             <Link href="/contributors">
               <Text
                 ml="1rem"
@@ -89,23 +105,28 @@ const Navbar: React.FC = () => {
                 Contributors
               </Text>
             </Link>
-            <a href="https://lnct.ac.in/" target="_blank">
-              <Button
-                mr="1rem"
+            <Link href="https://lnct.ac.in/">
+              <Text
+                
                 borderRadius="3px"
-                height="44px"
-                p="0 25px"
-                color="white"
-                bg="primary"
-                _hover={{
-                  bg: "linkedin.300",
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("contributors")
+                    ? "underline"
+                    : "none",
                 }}
+                textUnderlineOffset="4px"
+                height="44px"
+                fontSize="2xl"
+                p="0 25px"
+                color="primary"
               >
                 About Us
-              </Button>
-            </a>
-            <a href="https://bit.ly/SCHOOL-STEM-MODEL" target="_blank">
+              </Text>
+            </Link>
+            <a href="" target="_blank">
               <Button
+                ml="1rem"
                 borderRadius="3px"
                 height="44px"
                 p="0 25px"

@@ -75,13 +75,8 @@ const ProcessFlow: React.FC = () => {
                     </AccordionButton>
                     <AccordionPanel pb={4}>
                       <Text fontSize="2xl">
-                        College students can participate under two category:
+                      Regular Students of HEI's pursuing "Graduate/Post-Graduate/Ph.D" will be able to showcase their talent and generate out-of-the-box open innovation ideas.
                       </Text>
-                      <UnorderedList fontSize="2xl">
-                        <ListItem>Category I: Class 6th, 7th & 8th</ListItem>
-                        <ListItem>Category II: Class 9 & Class 10</ListItem>
-                        <ListItem>Category III: Class 11 & Class 12</ListItem>
-                      </UnorderedList>
                     </AccordionPanel>
                   </>
                 )}
@@ -117,24 +112,20 @@ const ProcessFlow: React.FC = () => {
                     <AccordionPanel pb={4}>
                       <UnorderedList fontSize="2xl">
                         <ListItem>
-                          Each team would comprise 2 - 4 students.
+                        All team members should be from same college. However, members from different branches of the same college/ institute are encouraged to form a team. 
                         </ListItem>
                         <ListItem>
-                          One of the students from each team should act as a
-                          Team Leader.
+                         No inter-college teams are allowed.
                         </ListItem>
                         <ListItem>
-                          College photo ID is mandatory for participating in the
-                          finale.
+                         Each team would mandatorily comprise of 2-4 members including the team leader. 
                         </ListItem>
-                        <ListItem>One team can submit ONLY one idea.</ListItem>
+                        <ListItem>College photo ID is mandatory for participating in the finale.</ListItem>
                         <ListItem>
-                          Team members CANNOT be associated with multiple teams
-                          in parallel.
+                         One team can submit ONLY one idea.
                         </ListItem>
                         <ListItem>
-                          Team Name should be unique and not contain the name of
-                          their College in any form.
+                          Team members CANNOT be associated with multiple teams in parallel.
                         </ListItem>
                       </UnorderedList>
                     </AccordionPanel>
@@ -213,213 +204,13 @@ const ProcessFlow: React.FC = () => {
                     <AccordionPanel pb={4}>
                       <UnorderedList fontSize="2xl">
                         <ListItem>
-                          Idea Submission Deadline: July 30, 2023
+                          Idea Submission Deadline: 18 March, 2023
                         </ListItem>
                         <ListItem>
-                          Shortlist for Idea Submission: August 3, 2023
+                          Shortlist for Idea Submission: 20, March, 2023
                         </ListItem>
                         <ListItem>
-                          Second Round Idea Presentation: August 5 & 6, 2023
-                        </ListItem>
-                        <ListItem>
-                          Shortlist for Prototype Demonstration: August 10, 2023
-                        </ListItem>
-                        <ListItem>
-                          Final Round Prototype Demonstration: August 20, 2023
-                        </ListItem>
-                      </UnorderedList>
-                    </AccordionPanel>
-                  </>
-                )}
-              </AccordionItem>
-            </Reveal>
-            <Reveal>
-              <AccordionItem border="none" outline="none" width="100%">
-                {({ isExpanded }) => (
-                  <>
-                    <AccordionButton
-                      border="solid 1px"
-                      borderColor="gray.100"
-                      borderRadius="4px"
-                      bg="primary"
-                      _hover={{ bg: "primary" }}
-                    >
-                      <Box
-                        fontSize="3xl"
-                        color="white"
-                        flex="1"
-                        textAlign="left"
-                      >
-                        Shortlisted teams for Idea Presentation (Second Round)
-                      </Box>
-                      <Text fontSize="2xl" color="white">
-                        {isExpanded ? (
-                          <MdKeyboardArrowUp />
-                        ) : (
-                          <MdKeyboardArrowDown />
-                        )}
-                      </Text>
-                    </AccordionButton>
-                    <AccordionPanel pb={4}>
-                      <Text fontSize="2xl">
-                        We are happy to announce that your innovation idea has
-                        been selected for Idea Presentation round (Second) in
-                        National Agro Hackathon – 2023
-                        Version 1.0. The presentation will be held category wise
-                        on 31st March, 2023 through Zoom Meeting. The time
-                        schedule & date will be informed you by WhatsApp group.
-                      </Text>
-                      <UnorderedList mt="0.5rem" fontSize="2xl">
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 1{" "}
-                            <a
-                              target="_blank"
-                              href="/assets/Result for Category 1.pdf"
-                            >
-                              {" "}
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
-                        </ListItem>
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 2{" "}
-                            <a
-                              target="_blank"
-                              href="/assets/Result for Category 2.pdf"
-                            >
-                              {" "}
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
-                        </ListItem>
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 3{" "}
-                            <a
-                              target="_blank"
-                              href="/assets/Result for Category 3.pdf"
-                            >
-                              {" "}
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
-                        </ListItem>
-                      </UnorderedList>
-                    </AccordionPanel>
-                  </>
-                )}
-              </AccordionItem>
-            </Reveal>
-            <Reveal>
-              <AccordionItem border="none" outline="none" width="100%">
-                {({ isExpanded }) => (
-                  <>
-                    <AccordionButton
-                      border="solid 1px"
-                      borderColor="gray.100"
-                      borderRadius="4px"
-                      bg="primary"
-                      _hover={{ bg: "primary" }}
-                    >
-                      <Box
-                        fontSize="3xl"
-                        color="white"
-                        flex="1"
-                        textAlign="left"
-                      >
-                        Shortlisted teams for Grand Finale (Third Round)
-                      </Box>
-                      <Text fontSize="2xl" color="white">
-                        {isExpanded ? (
-                          <MdKeyboardArrowUp />
-                        ) : (
-                          <MdKeyboardArrowDown />
-                        )}
-                      </Text>
-                    </AccordionButton>
-                    <AccordionPanel pb={4}>
-                      <Text fontSize="2xl">
-                        We are happy to announce that your innovation idea has
-                        been selected for Grand Finale (Prototype
-                        Demonstration/Working Model) in National Agro Hackathon
-                        – 2023 Version 1.0.
-                      </Text>
-                      <Text fontSize="xl">
-                        Note: You have to submit your Project Demonstration
-                        Video (for 5 minutes) up to August 20, 2023. The video
-                        will be uploading through Google form which will be sent
-                        you earliest.
-                      </Text>
-                      <UnorderedList mt="0.5rem" fontSize="2xl">
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 1{" "}
-                            <a target="_blank" href="/assets/final-1.jpeg">
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
-                        </ListItem>
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 2{" "}
-                            <a target="_blank" href="/assets/final-2.jpeg">
-                              {" "}
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
-                        </ListItem>
-                        <ListItem>
-                          <Flex
-                            mb="1rem"
-                            alignItems="center"
-                            maxW="600px"
-                            justifyContent="space-between"
-                          >
-                            Category 3{" "}
-                            <a target="_blank" href="/assets/final-3.jpeg">
-                              {" "}
-                              <Button bg="primary" color="white">
-                                View
-                              </Button>
-                            </a>
-                          </Flex>
+                          Final Round Prototype Demonstration: 31 March – 01 Arpil, 2023 (Nonstop 24 Hours)
                         </ListItem>
                       </UnorderedList>
                     </AccordionPanel>
@@ -428,11 +219,8 @@ const ProcessFlow: React.FC = () => {
               </AccordionItem>
             </Reveal>
           </Accordion>
-          <Text mt="2rem" color="primary" fontSize="xl">
-            Important Note : The competition will be either in offline or online
-            mode depends on the prevailing COVID-19 situation.
-          </Text>
-          <Reveal mt="2rem" width="100%">
+          
+          <Reveal mt="2.5rem" width="100%">
             <Text
               fontWeight="700"
               color="primary"
