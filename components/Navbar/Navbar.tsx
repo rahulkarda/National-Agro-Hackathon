@@ -210,11 +210,6 @@ const Navbar: React.FC = () => {
                   <Text
                     borderRadius="3px"
                     mt="0.5rem"
-                    sx={{
-                      textDecoration: page.includes("contributors")
-                        ? "underline"
-                        : "none",
-                    }}
                     textUnderlineOffset="4px"
                     height="44px"
                     fontSize="2xl"
