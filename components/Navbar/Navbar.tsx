@@ -213,6 +213,22 @@ const Navbar: React.FC = () => {
                     Problem Statements
                   </Text>
                 </Link>
+                <Link href="/contact">
+              <Text
+                borderRadius="3px"
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("contact") ? "underline" : "none",
+                }}
+                textUnderlineOffset="4px"
+                height="44px"
+                width={{md:"120px",xl:"125px"}}
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                color="primary"
+              >
+                Contact Us
+              </Text>
+            </Link>
                 <Link href="/contributors">
                   <Text
                     borderRadius="3px"
