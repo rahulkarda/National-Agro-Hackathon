@@ -4,17 +4,17 @@ import {
   Flex,
   Text,
   Container,
-  Avatar,
-  SimpleGrid,
+  // Avatar,
+  // SimpleGrid,
   Icon,
   Img,
 } from "@chakra-ui/react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiFacebook, FiInstagram, FiGlobe } from "react-icons/fi";
-import { AiOutlinePhone } from "react-icons/ai";
+// import { AiOutlinePhone } from "react-icons/ai";
 
 import Reveal from "../library/Reveal";
-import { wrap } from "module";
+// import { wrap } from "module";
 
 const Contact: React.FC = () => {
   return (
