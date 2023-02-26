@@ -12,7 +12,7 @@ const ThemeCarousel: React.FC<Props> = () => {
   const carouselData = [
     {
       text: "Precision Agriculture",
-      icon: "agriculture",
+      icon: "smart_system",
     },
     {
       text: "Supply Chain & Agriculture Logistics",
@@ -20,7 +20,7 @@ const ThemeCarousel: React.FC<Props> = () => {
     },
     {
       text: "Post-Harvest, Food Technology & Value addition",
-      icon: "value",
+      icon: "agriculture",
     },
     {
       text: "Waste to Wealth & Green Energy in Agricuture",
@@ -28,7 +28,7 @@ const ThemeCarousel: React.FC<Props> = () => {
     },
     {
       text: "Miscellaneous",
-      icon: "",
+      icon: "miscell",
     },
     {
       text: "Open Innovation",

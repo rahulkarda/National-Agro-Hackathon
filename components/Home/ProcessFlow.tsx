@@ -232,7 +232,7 @@ const ProcessFlow: React.FC = () => {
             <Text fontSize="2xl">
               Lakshmi Narain College of Technology, Bhopal Kalchuri Nagar,
               Raisen Road, Bhopal 462 021, (MP)
-              <br /> Mobile Number: 9826856015, 7354549227 <br />
+              <br /> Mobile Number: 9826856015, 9753485817 <br />
               Phone Number: +91-755-6185300
             </Text>
           </Reveal>
