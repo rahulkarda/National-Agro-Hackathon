@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
                 borderRadius="3px"
                 mt="0.5rem"
                 sx={{
-                  textDecoration: page.includes("") ? "none" : "underline",
+                  textDecoration: page.includes("") ? "underline" : "none",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
@@ -84,6 +84,22 @@ const Navbar: React.FC = () => {
                 color="primary"
               >
                 Problem Statements
+              </Text>
+            </Link>
+            <Link href="/contact">
+              <Text
+                ml="3rem"
+                borderRadius="3px"
+                mt="0.5rem"
+                sx={{
+                  textDecoration: page.includes("contact") ? "underline" : "none",
+                }}
+                textUnderlineOffset="4px"
+                height="44px"
+                fontSize="2xl"
+                color="primary"
+              >
+                Contact Us
               </Text>
             </Link>
             <Link href="/contributors">

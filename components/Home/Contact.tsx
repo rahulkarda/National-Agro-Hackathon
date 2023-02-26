@@ -5,6 +5,7 @@ import {
   Text,
   Container,
   Avatar,
+  SimpleGrid,
   Icon,
   Img,
 } from "@chakra-ui/react";
@@ -13,6 +14,7 @@ import { FiFacebook, FiInstagram, FiGlobe } from "react-icons/fi";
 import { AiOutlinePhone } from "react-icons/ai";
 
 import Reveal from "../library/Reveal";
+import { wrap } from "module";
 
 const Contact: React.FC = () => {
   return (
@@ -94,111 +96,56 @@ const Contact: React.FC = () => {
               />
             </a>
           </Reveal>
-          <Reveal mt="5rem">
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem">
-              Contact Us
-            </Text>
-          </Reveal>
-          <Reveal
-            display="flex"
-            alignItems="center"
-            flexDirection={{ xs: "column", md: "row" }}
-            justifyContent="center"
-          >
-            <Flex
-              mt="3rem"
-              alignItems="center"
-              direction="column"
-              justifyContent="center"
-              mb={{ xs: "2rem", md: "0" }}
-              mr={{ md: "5rem" }}
-            >
-              <Avatar
-                color="white"
-                bg="primary"
-                size="2xl"
-                name="Vivek Richhariya"
-              />
-              <Text mt="1rem" fontSize="2xl">
-                Dr. Vivek Richhariya
-              </Text>
-              <Text mb="1rem" fontSize="2xl">
-                Professor, CSE
-              </Text>
-              <Flex>
-                <a href="mailto:vivekr@lnct.ac.in?subject=Query Regarding Hackathon">
-                  <Icon
-                    bg="primary"
-                    color="white"
-                    p="2"
-                    width={12}
-                    height={12}
-                    borderRadius="50%"
-                    as={HiOutlineMail}
-                  />
-                </a>
-                <a href="tel:9826856015">
-                  <Icon
-                    ml="1rem"
-                    bg="primary"
-                    color="white"
-                    p="2"
-                    width={12}
-                    height={12}
-                    borderRadius="50%"
-                    as={AiOutlinePhone}
-                  />
-                </a>
-              </Flex>
-            </Flex>
-            <Flex
-              mt="3rem"
-              alignItems="center"
-              direction="column"
-              justifyContent="center"
-            >
-              <Avatar
-                color="white"
-                bg="primary"
-                size="2xl"
-                name="Tripti Saxena"
-              />
-              <Text mt="1rem" fontSize="2xl">
-                Prof. Tripti Saxena
-              </Text>
-              <Text mb="1rem" fontSize="2xl">
-                Asst. Professor, CSE
-              </Text>
-              <Flex>
-                <a href="mailto:triptis@lnct.ac.in?subject=Query Regarding Hackathon">
-                  <Icon
-                    bg="primary"
-                    color="white"
-                    p="2"
-                    width={12}
-                    height={12}
-                    borderRadius="50%"
-                    as={HiOutlineMail}
-                  />
-                </a>
-                <a href="tel:9753485817">
-                  <Icon
-                    ml="1rem"
-                    bg="primary"
-                    color="white"
-                    p="2"
-                    width={12}
-                    height={12}
-                    borderRadius="50%"
-                    as={AiOutlinePhone}
-                  />
-                </a>
-              </Flex>
-            </Flex>
-          </Reveal>
+          
         </Flex>
       </Container>
+
+      <Flex
+          alignItems="center"
+          justifyContent="center"
+          flexDirection="column"
+          mt="3rem"
+          flexWrap="wrap"
+        >
+      <Reveal>
+            <Text color="primary" fontWeight="700" fontSize="5xl" mb="3rem">
+              Sponsored By
+            </Text>
+          </Reveal>
+      {/* <Box width={{ lg: "70%" }}> */}
+      {/* <Reveal
+              display="flex"
+              flexDirection={{ xs: "column", lg: "row" }}
+              left
+              // justifyContent="space-evenly"
+            > */}
+              {/* <SimpleGrid
+                mt="1rem"
+                mb="2rem"
+                width={{ xs: "90%", md: "70%", lg: "150%" }}
+                columns={{ xs: 1, sm: 5 }}
+                spacing={{ xs: 10, lg: 5 }}
+              > */}
+              <Flex
+          alignItems="center"
+          justifyContent="space-between"
+          flexDirection="row"
+          mt="0rem"
+        >
+                <Reveal>
+                  <Img my="auto" width="80%" src="/assets/kliclogo.png" />
+                </Reveal>
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/anupamlogo.jpeg" />
+                </Reveal>
+                
+                </Flex>
+              {/* </SimpleGrid> */}
+              {/* </Reveal> */}
+              {/* </Box> */}
+    </Flex>
     </Box>
+    
   );
 };
 
