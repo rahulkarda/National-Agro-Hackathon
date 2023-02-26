@@ -142,7 +142,7 @@ const Navbar: React.FC = () => {
                 About Us
               </Text>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
               <Button
                 ml="1rem"
                 borderRadius="3px"
@@ -259,7 +259,7 @@ const Navbar: React.FC = () => {
                   </Text>
                 </Link>
 
-                <Link href="" target="_blank">
+                <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
                   <Button
                     borderRadius="3px"
                     height="44px"

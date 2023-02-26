@@ -120,7 +120,7 @@ const HeroSection: React.FC = () => {
               delay={0.4}
               mt="3rem"
             >
-              <a href="" target="_blank">
+              <a href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
                 <Button
                   borderRadius="3px"
                   bg="primary"
