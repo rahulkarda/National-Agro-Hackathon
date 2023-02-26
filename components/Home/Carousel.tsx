@@ -28,7 +28,7 @@ const ThemeCarousel: React.FC<Props> = () => {
     },
     {
       text: "Miscellaneous",
-      icon: "miscellaneous",
+      icon: "miscel",
     },
     {
       text: "Open Innovation",
