@@ -74,13 +74,13 @@ const Navbar: React.FC = () => {
                 Home
               </Text>
             </Link>
-            <Link href="/problems">
+            <Link href="/problemStatements">
               <Text
                 ml="3rem"
                 borderRadius="3px"
                 mt="0.5rem"
                 sx={{
-                  textDecoration: page.includes("problems") ? "underline" : "none",
+                  textDecoration: page.includes("problemStatements") ? "underline" : "none",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
@@ -198,12 +198,12 @@ const Navbar: React.FC = () => {
                     Home
                   </Text>
                 </Link>
-                <Link href="/problems">
+                <Link href="/problemStatements">
                   <Text
                     borderRadius="3px"
                     mt="0.5rem"
                     sx={{
-                      textDecoration: page.includes("/") ? "none" : "underline",
+                      textDecoration: page.includes("problemStatements") ? "none" : "underline",
                     }}
                     textUnderlineOffset="4px"
                     height="44px"
