@@ -18,6 +18,7 @@ import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
+// import { wrap } from "module";
 
 const Navbar: React.FC = () => {
   const [page, setPage] = useState("");
@@ -30,17 +31,19 @@ const Navbar: React.FC = () => {
 
   return (
     <Box
+      display={"flex"}
       position="fixed"
       bg="white"
       top="0"
       left="0"
       zIndex="sticky"
       width="100vw"
-      height="74px"
+      height={{md:"100", lg:"74px"}}
       px={{ md: "100px" }}
       boxShadow="0px 1px 20px 0px rgba(0,0,0,0.1)"
+      alignContent={"center"}
     >
-      <Container maxWidth="none" height="100%" width="100%">
+      <Container maxWidth="none" height="100%" width="100vw">
         <Flex
           width="100%"
           height="100%"
@@ -51,20 +54,21 @@ const Navbar: React.FC = () => {
             <Img
               src="/assets/logo.png"
               maxHeight="100%"
-              width={{ xs: "136px", sm: "163px" }}
+              width={{ xs: "136px", sm: "163px", md:"0", xl:"163px" }}
             />
           </Link>
-          <Flex display={{ xs: "none", sm: "flex" }} align="center">
+          <Flex display={{ xs: "none", sm: "none", md: "flex" }} align="center">
             <Link href="/">
               <Text
                 borderRadius="3px"
+                ml="3rem"
                 mt="0.5rem"
                 sx={{
                   textDecoration: page.includes("") ? "underline" : "none",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize="2xl"
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 color="primary"
               >
                 Home
@@ -80,7 +84,8 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize="2xl"
+                width={{md:"200px", xl:"230px"}}
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 color="primary"
               >
                 Problem Statements
@@ -96,7 +101,8 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize="2xl"
+                width={{md:"120px",xl:"125px"}}
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 color="primary"
               >
                 Contact Us
@@ -114,7 +120,7 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize="2xl"
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 p="0 25px"
                 color="primary"
               >
@@ -127,7 +133,9 @@ const Navbar: React.FC = () => {
                 mt="0.5rem"
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize="2xl"
+                // fontSize={{xs:"xl", sm:"2xl"}}
+                width="180px"
+                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 p="0 25px"
                 color="primary"
               >
@@ -151,7 +159,7 @@ const Navbar: React.FC = () => {
             </Link>
           </Flex>
           <IconButton
-            display={{ xs: "flex", sm: "none" }}
+            display={{ xs: "flex", sm: "flex", md: "none" }}
             aria-label="Open Navbar"
             onClick={onOpen}
             icon={<GiHamburgerMenu />}
