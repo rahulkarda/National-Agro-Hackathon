@@ -16,7 +16,7 @@ import { FiFacebook, FiInstagram, FiGlobe } from "react-icons/fi";
 import Reveal from "../library/Reveal";
 // import { wrap } from "module";
 
-const Contact: React.FC = () => {
+const Sponsor: React.FC = () => {
   return (
     <Box width="100%" py={{ xs: "60px", lg: "120px" }}>
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
@@ -149,4 +149,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default Sponsor;

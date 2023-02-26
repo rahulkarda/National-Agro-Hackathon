@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
                 ml="3rem"
                 mt="0.5rem"
                 sx={{
-                  textDecoration: page.includes("") ? "underline" : "none",
+                  textDecoration: page.includes("") ? "none" : "underline",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
