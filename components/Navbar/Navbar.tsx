@@ -91,6 +91,7 @@ const Navbar: React.FC = () => {
                 Problem Statements
               </Text>
             </Link>
+            
             <Link href="/contact">
               <Text
                 ml="3rem"
@@ -102,6 +103,7 @@ const Navbar: React.FC = () => {
                 textUnderlineOffset="4px"
                 height="44px"
                 width={{md:"120px",xl:"125px"}}
+                // fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
                 color="primary"
               >
@@ -223,7 +225,7 @@ const Navbar: React.FC = () => {
                 textUnderlineOffset="4px"
                 height="44px"
                 width={{md:"120px",xl:"125px"}}
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                fontSize={{xs:"2xl", sm:"2xl", xl: "2xl"}}
                 color="primary"
               >
                 Contact Us
