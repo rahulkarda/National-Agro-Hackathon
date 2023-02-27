@@ -24,8 +24,11 @@ const problemStatement: React.FC = () => {
                 <Link 
                     style={{ color: "blue" }}
                     href='https://docs.google.com/presentation/d/18XASq0R4TaM1tGR5AI-wcv9Ka5g1zClU/edit#slide=id.p1' >
-                    here
+                    here.
                 </Link>
+            </Text>
+            <Text fontSize={"2xl"} color="primary" mt="2rem">
+                Themes
             </Text>
             <Accordion mt="5" border="2px solid #222" maxW="container.xl">
                 <AccordionItem>
@@ -33,7 +36,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
-                                    Statement 1 : Precision Agriculture including applications of sensors, WSN, ICT, Artificial Intelligence, IoT & drone.
+                                    1 : Precision Agriculture including applications of sensors, WSN, ICT, Artificial Intelligence, IoT & drone.
                                 </Heading>
                             </Box>
                             <AccordionIcon />
@@ -54,7 +57,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
-                                    Statement 2 : Supply Chain & Agriculture Logistics. 
+                                    2 : Supply Chain & Agriculture Logistics. 
                                 </Heading>
                             </Box>
                             <AccordionIcon />
@@ -75,7 +78,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
-                                    Statement 3 : Post-Harvest, Food Technology & Value addition.
+                                    3 : Post-Harvest, Food Technology & Value addition.
                                 </Heading>
                             </Box>
                             <AccordionIcon />
@@ -96,7 +99,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
-                                    Statement 4 : Waste to Wealth & Green Energy in Agriculture.
+                                    4 : Waste to Wealth & Green Energy in Agriculture.
                                 </Heading>
                             </Box>
                             <AccordionIcon />
@@ -118,7 +121,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
-                                    Statement 5 : Miscellaneous
+                                    5 : Miscellaneous
                                 </Heading>
                             </Box>
                             <AccordionIcon />
@@ -141,7 +144,7 @@ const problemStatement: React.FC = () => {
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
                                 <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
-                                    Statement 6 : Open innovation
+                                    6 : Open innovation
                                 </Heading>
                             </Box>
                             <AccordionIcon />
