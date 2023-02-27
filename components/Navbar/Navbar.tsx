@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
                 Contributors
               </Text>
             </Link>
-            <Link href="https://lnct.ac.in/">
+            <Link href="https://hackathonclub.lnct.ac.in/" target="_blank">
               <Text
                 borderRadius="3px"
                 mt="0.5rem"
@@ -248,7 +248,7 @@ const Navbar: React.FC = () => {
                     Contributors
                   </Text>
                 </Link>
-                <Link href="https://lnct.ac.in/">
+                <Link href="https://hackathonclub.lnct.ac.in/" target="_blank">
                   <Text
                     borderRadius="3px"
                     mt="0.5rem"
