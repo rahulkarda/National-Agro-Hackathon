@@ -32,7 +32,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     Statement 1 : Precision Agriculture including applications of sensors, WSN, ICT, Artificial Intelligence, IoT & drone.
                                 </Heading>
                             </Box>
