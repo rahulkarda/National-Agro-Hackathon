@@ -19,6 +19,7 @@ const HeroSection: React.FC = () => {
       height={{ lg: "55vw" }}
       width="100%"
       p={{ xs: "40px 0 60px", sm: "140px 0 130px" }}
+      mt="1rem"
     >
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
@@ -30,7 +31,6 @@ const HeroSection: React.FC = () => {
             <Reveal
               display="flex"
               flexDirection={{ xs: "column-reverse", lg: "column" }}
-              left
             >
               <SimpleGrid
                 mt="1rem"
@@ -55,19 +55,11 @@ const HeroSection: React.FC = () => {
                   <Img my="auto" width="100%" src="/assets/NBA.png" />
                 </Reveal>
                 <Reveal>
-                  <Img
-                    my="auto"
-                    width="100%"
-                    src="/assets/Hackathon Club Logo.png"
-                  />
+                  <Img my="auto" width="100%" src="/assets/Hackathon Club Logo.png"/>
                 </Reveal>
                 <Reveal>
                   <Img my="auto" width="100%" src="/assets/30.png" />
-                </Reveal>
-                {/* <Reveal>
-                  <Img my="auto" width="100%" src="/assets/" />
-                </Reveal> */}
-                
+                </Reveal> 
               </SimpleGrid>
               <Box>
                 <Text
@@ -141,7 +133,7 @@ const HeroSection: React.FC = () => {
             delay={0.4}
             height={{ xs: "40%", sm: "auto" }}
             width={{ lg: "52%" }}
-            mb={{ xs: "1rem", md: "0" }}
+            mb={{ xs: "1rem", md: "5rem" }}
           >
             <Carousel />
           </Reveal>
