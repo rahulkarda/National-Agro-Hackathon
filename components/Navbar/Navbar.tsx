@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
       left="0"
       zIndex="sticky"
       width="100vw"
-      height={{md:"70", lg:"70px"}}
+      height={{md:"100", lg:"70px"}}
       px={{ md: "100px" }}
       boxShadow="0px 1px 20px 0px rgba(0,0,0,0.1)"
       alignContent={"center"}
