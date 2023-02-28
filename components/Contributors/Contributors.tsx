@@ -24,8 +24,8 @@ const HeroSection: React.FC = () => {
           <Reveal left>
             <Text
               as="h1"
-              mb={{ xs: "1rem", lg: "3rem" }}
-              fontSize={{ xs: "4xl", lg: "5xl" }}
+              mb={{ xs: "1rem", lg: "1rem" }}
+              fontSize={{ xs: "2xl", lg: "3xl" }}
               fontWeight="700"
               textAlign="center"
               color="primary"
@@ -88,17 +88,18 @@ const HeroSection: React.FC = () => {
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
                     >
-                      <Text>Dr. V. N. Bartariya</Text>
+                      <Text>Dr. V. N. Bartaria</Text>
                       <Text>Dr. Alka Gulati</Text>
                       <Text>Dr. Bhawna Pillai</Text>
                       <Text>Dr. Tripti Saxena</Text>
                       <Text>Dr. Aparna Gupta</Text>
-                      <Text>Prof Naveen Asathi</Text>
+                      <Text>Prof Naveen Asati</Text>
                       <Text>Prof Megha Jain</Text>
                       <Text>Prof. Shraddha Shrivastava</Text>
                       <Text>Prof. Prakhar Bhadauriya</Text>
                       <Text>Prof Sachin Nikkam</Text>
                       <Text>Dr. Prashant Chaturvedi</Text>
+                      <Text>Dr. Anand Singh</Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>
@@ -109,7 +110,8 @@ const HeroSection: React.FC = () => {
             <Text
               as="h1"
               mt="4rem"
-              fontSize={{ xs: "4xl", lg: "5xl" }}
+              mb="1rem"
+              fontSize={{ xs: "2xl", lg: "3xl" }}
               fontWeight="700"
               textAlign="center"
               color="primary"

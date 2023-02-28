@@ -31,7 +31,7 @@ const WhyJoin: React.FC = () => {
               <Text
                 color="white"
                 fontWeight="700"
-                fontSize="5xl"
+                fontSize="4xl"
                 textAlign="center"
                 lineHeight="48px"
                 mb={{ xs: "3rem", md: "0", lg: "0" }}
@@ -125,7 +125,7 @@ const WhyJoin: React.FC = () => {
         <Reveal>
           <Text
             textAlign="center"
-            fontSize="5xl"
+            fontSize="4xl"
             fontWeight="700"
             mt="2rem"
             mb={{ xs: "0", md: "2rem" }}

@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
       left="0"
       zIndex="sticky"
       width="100vw"
-      height={{md:"100", lg:"74px"}}
+      height={{md:"70", lg:"70px"}}
       px={{ md: "100px" }}
       boxShadow="0px 1px 20px 0px rgba(0,0,0,0.1)"
       alignContent={"center"}
@@ -48,13 +48,16 @@ const Navbar: React.FC = () => {
           width="100%"
           height="100%"
           alignItems="center"
-          justifyContent="space-between"
+          // justifyContent="space-between"
+          // justifyContent="center"
+          justify={{xs:"space-between", lg:"center"}}
         >
           <Link href="https://lnct.ac.in/" target="_blank">
             <Img
               src="/assets/logo.png"
-              maxHeight="100%"
-              width={{ xs: "136px", sm: "163px", md:"0", xl:"163px" }}
+              // maxHeight="100%"
+              maxWidth="auto"
+              width={{ xs: "76px", sm: "136px", md: "146px", lg: "146px"}}
             />
           </Link>
           <Flex display={{ xs: "none", sm: "none", md: "flex" }} align="center">
@@ -62,13 +65,14 @@ const Navbar: React.FC = () => {
               <Text
                 borderRadius="3px"
                 ml="3rem"
+                // mr="3rem"
                 mt="0.5rem"
                 sx={{
                   textDecoration: page.includes("") ? "none" : "underline",
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                fontSize={{xs:"xl", sm:"xl", xl: "xl"}}
                 color="primary"
               >
                 Home
@@ -84,9 +88,10 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                width={{md:"200px", xl:"230px"}}
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                width={{md:"200px", xl:"191px"}}
+                fontSize={{xs:"xl", sm:"xl", xl: "xl"}}
                 color="primary"
+                // mr="2rem"
               >
                 Problem Statements
               </Text>
@@ -102,10 +107,11 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                width={{md:"120px",xl:"125px"}}
+                width={{md:"120px",xl:"102px"}}
                 // fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                fontSize={{xs:"xl", sm:"xl", xl: "xl"}}
                 color="primary"
+                // mr="2rem"
               >
                 Contact Us
               </Text>
@@ -122,7 +128,7 @@ const Navbar: React.FC = () => {
                 }}
                 textUnderlineOffset="4px"
                 height="44px"
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                fontSize={{xs:"xl", sm:"xl", xl: "xl"}}
                 p="0 25px"
                 color="primary"
               >
@@ -137,7 +143,7 @@ const Navbar: React.FC = () => {
                 height="44px"
                 // fontSize={{xs:"xl", sm:"2xl"}}
                 width="180px"
-                fontSize={{xs:"2xl", sm:"xl", xl: "2xl"}}
+                fontSize={{xs:"xl", sm:"xl", xl: "xl"}}
                 p="0 25px"
                 color="primary"
               >
@@ -146,7 +152,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
               <Button
-                ml="1rem"
+                // ml="1rem"
                 borderRadius="3px"
                 height="44px"
                 p="0 25px"

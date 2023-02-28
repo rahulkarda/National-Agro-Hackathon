@@ -26,7 +26,7 @@ const Sponsor: React.FC = () => {
           flexDirection="column"
         >
           <Reveal>
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem">
+            <Text color="primary" fontWeight="700" fontSize="4xl" mb="2rem">
               Organized By
             </Text>
           </Reveal>
@@ -38,9 +38,9 @@ const Sponsor: React.FC = () => {
             direction={{ xs: "column", md: "row" }}
             justifyContent="center"
           >
-            <Img src="/assets/club.jpeg" />
+            <Img src="/assets/club.png" />
           </Reveal>
-          <Reveal mb="3rem">
+          <Reveal mb="3rem" mt="1rem">
             <a
               href="https://www.facebook.com/lncthackathonclub"
               target="_blank"
@@ -108,7 +108,7 @@ const Sponsor: React.FC = () => {
           flexWrap="wrap"
         >
       <Reveal>
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="3rem">
+            <Text color="primary" fontWeight="700" fontSize="4xl" mb="3rem">
               Sponsored By
             </Text>
           </Reveal>

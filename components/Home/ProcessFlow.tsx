@@ -18,7 +18,7 @@ import Reveal from "../library/Reveal";
 
 const ProcessFlow: React.FC = () => {
   return (
-    <Box id="results" width="100%" py="120px">
+    <Box id="results" width="100%" py="50px">
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
           alignItems="center"
@@ -29,7 +29,7 @@ const ProcessFlow: React.FC = () => {
             <Text
               color="primary"
               fontWeight="700"
-              fontSize="5xl"
+              fontSize="3xl"
               lineHeight="48px"
               mb="3rem"
             >
@@ -58,7 +58,7 @@ const ProcessFlow: React.FC = () => {
                       _hover={{ bg: "primary" }}
                     >
                       <Box
-                        fontSize="3xl"
+                        fontSize="2xl"
                         color="white"
                         flex="1"
                         textAlign="left"
@@ -74,7 +74,7 @@ const ProcessFlow: React.FC = () => {
                       </Text>
                     </AccordionButton>
                     <AccordionPanel pb={4}>
-                      <Text fontSize="2xl">
+                      <Text fontSize="1.4rem">
                       Regular Students of HEI's pursuing "Graduate/Post-Graduate/Ph.D" will be able to showcase their talent and generate out-of-the-box open innovation ideas.
                       </Text>
                     </AccordionPanel>
@@ -94,7 +94,7 @@ const ProcessFlow: React.FC = () => {
                       _hover={{ bg: "primary" }}
                     >
                       <Box
-                        fontSize="3xl"
+                        fontSize="2xl"
                         color="white"
                         flex="1"
                         textAlign="left"
@@ -110,7 +110,7 @@ const ProcessFlow: React.FC = () => {
                       </Text>
                     </AccordionButton>
                     <AccordionPanel pb={4}>
-                      <UnorderedList fontSize="2xl">
+                      <UnorderedList fontSize="1.4rem">
                         <ListItem>
                         All team members should be from same college. However, members from different branches of the same college/ institute are encouraged to form a team. 
                         </ListItem>
@@ -145,7 +145,7 @@ const ProcessFlow: React.FC = () => {
                       _hover={{ bg: "primary" }}
                     >
                       <Box
-                        fontSize="3xl"
+                        fontSize="2xl"
                         color="white"
                         flex="1"
                         textAlign="left"
@@ -161,10 +161,10 @@ const ProcessFlow: React.FC = () => {
                       </Text>
                     </AccordionButton>
                     <AccordionPanel pb={4}>
-                      <Text fontSize="2xl">
+                      <Text fontSize="1.4rem">
                         The cash prize will be given to each category
                       </Text>
-                      <UnorderedList fontSize="2xl">
+                      <UnorderedList fontSize="xl">
                         <ListItem>First Prize : Rs 25,000/-</ListItem>
                         <ListItem>Second Prize : Rs 15,000/-</ListItem>
                         <ListItem>Third Prize : Rs 10,000/-</ListItem>
@@ -186,7 +186,7 @@ const ProcessFlow: React.FC = () => {
                       _hover={{ bg: "primary" }}
                     >
                       <Box
-                        fontSize="3xl"
+                        fontSize="2xl"
                         color="white"
                         flex="1"
                         textAlign="left"
@@ -202,7 +202,7 @@ const ProcessFlow: React.FC = () => {
                       </Text>
                     </AccordionButton>
                     <AccordionPanel pb={4}>
-                      <UnorderedList fontSize="2xl">
+                      <UnorderedList fontSize="xl">
                         <ListItem>
                           Idea Submission Deadline: 18 March, 2023
                         </ListItem>
@@ -225,11 +225,11 @@ const ProcessFlow: React.FC = () => {
               fontWeight="700"
               color="primary"
               textAlign="left"
-              fontSize="3xl"
+              fontSize="2xl"
             >
               Venue
             </Text>
-            <Text fontSize="2xl">
+            <Text fontSize="xl">
               Lakshmi Narain College of Technology, Bhopal Kalchuri Nagar,
               Raisen Road, Bhopal 462 021, (MP)
               <br /> Mobile Number: 9826856015, 9753485817 <br />

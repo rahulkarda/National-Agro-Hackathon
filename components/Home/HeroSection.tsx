@@ -35,12 +35,16 @@ const HeroSection: React.FC = () => {
               <SimpleGrid
                 mt="1rem"
                 mb="2rem"
-                width={{ xs: "90%", md: "70%", lg: "150%" }}
-                columns={{ xs: 2, sm: 8 }}
+                width={{ xs: "90%", md: "70%", lg: "100%" }}
+                columns={{ xs: 2, sm: 6 }}
                 spacing={{ xs: 10, lg: 5 }}
+                alignItems="center"
               >
-                <Reveal>
+                {/* <Reveal>
                   <Img my="auto" width="100%" src="/assets/logo.png" />
+                </Reveal> */}
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/Hackathon Club Logo.png"/>
                 </Reveal>
                 <Reveal>
                   <Img my="auto" width="100%" src="/assets/g20.png" />
@@ -55,28 +59,36 @@ const HeroSection: React.FC = () => {
                   <Img my="auto" width="100%" src="/assets/NBA.png" />
                 </Reveal>
                 <Reveal>
-                  <Img my="auto" width="100%" src="/assets/Hackathon Club Logo.png"/>
-                </Reveal>
-                <Reveal>
                   <Img my="auto" width="100%" src="/assets/30.png" />
                 </Reveal> 
               </SimpleGrid>
               <Box>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "1.8rem" }}
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
                   fontWeight="700"
-                  textAlign={{ xs: "center", lg: "left" }}
+                  textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
                   lineHeight="1.1"
                 >
-                  LNCT Group of Colleges present,
+                  LNCT Group
                 </Text>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "3xl" }}
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
                   fontWeight="700"
-                  textAlign={{ xs: "center", lg: "left" }}
+                  textAlign={{ xs: "center", lg: "center" }}
+                  color="primary"
+                  lineHeight="1.1"
+                  mt="1rem"
+                >
+                  Presents
+                </Text>
+                <Text
+                  as="h1"
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
+                  fontWeight="700"
+                  textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
                   lineHeight="1.2"
                   mb={{ xs: "1rem", lg: "2rem" }}
@@ -84,7 +96,7 @@ const HeroSection: React.FC = () => {
                 >
                   National Agro Hackathon – 2023
                   <br />
-                  <Text as="span" fontSize={{ xs: "2xl", lg: "1.8rem" }}>
+                  <Text as="span" fontSize={{ xs: "2xl", lg: "1.5rem" }}>
                     Version 1.0
                   </Text>
                 </Text>
@@ -132,8 +144,8 @@ const HeroSection: React.FC = () => {
             right
             delay={0.4}
             height={{ xs: "40%", sm: "auto" }}
-            width={{ lg: "52%" }}
-            mb={{ xs: "1rem", md: "5rem" }}
+            width={{ lg: "55%" }}
+            mb={{ xs: "1rem", md: "2rem" }}
           >
             <Carousel />
           </Reveal>
