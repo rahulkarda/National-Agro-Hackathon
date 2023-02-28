@@ -104,7 +104,7 @@ const HeroSection: React.FC = () => {
                   textAlign={{ xs: "center", lg: "left" }}
                   color="#14213d"
                   mb="1rem"
-                  fontSize={"xl"}
+                  fontSize={"1.2rem"}
                 >
                   LNCT Group Hackathon Club is organising a “National Agro Hackathon - 2023, Version 1.0”, aimed at bringing together a diverse group of individuals with a passion for agriculture to develop creative and innovative solutions to the challenges facing by this sector.
                 </Text>
@@ -112,7 +112,7 @@ const HeroSection: React.FC = () => {
                   textAlign={{ xs: "center", lg: "left" }}
                   color="#14213d"
                   // mb="1rem"
-                  fontSize={"xl"}
+                  fontSize={"1.2rem"}
                 >
                   The Agriculture Hackathon will provide a platform for participants to collaborate and work with like-minded individuals, learn from industry experts and gain valuable exposure to the latest technologies and trends in agriculture. 
                 </Text>
