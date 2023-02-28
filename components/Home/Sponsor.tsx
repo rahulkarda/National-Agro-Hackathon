@@ -16,7 +16,7 @@ import { FiFacebook, FiInstagram, FiGlobe } from "react-icons/fi";
 import Reveal from "../library/Reveal";
 // import { wrap } from "module";
 
-const Contact: React.FC = () => {
+const Sponsor: React.FC = () => {
   return (
     <Box width="100%" py={{ xs: "60px", lg: "120px" }}>
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
           flexDirection="column"
         >
           <Reveal>
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem">
+            <Text color="primary" fontWeight="700" fontSize="4xl" mb="2rem">
               Organized By
             </Text>
           </Reveal>
@@ -38,9 +38,9 @@ const Contact: React.FC = () => {
             direction={{ xs: "column", md: "row" }}
             justifyContent="center"
           >
-            <Img src="/assets/club.jpeg" />
+            <Img src="/assets/club.png" />
           </Reveal>
-          <Reveal mb="3rem">
+          <Reveal mb="3rem" mt="1rem">
             <a
               href="https://www.facebook.com/lncthackathonclub"
               target="_blank"
@@ -108,7 +108,7 @@ const Contact: React.FC = () => {
           flexWrap="wrap"
         >
       <Reveal>
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="3rem">
+            <Text color="primary" fontWeight="700" fontSize="4xl" mb="3rem">
               Sponsored By
             </Text>
           </Reveal>
@@ -149,4 +149,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default Sponsor;

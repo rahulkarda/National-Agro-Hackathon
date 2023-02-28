@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
           flexDirection="column"
         >
           <Reveal mt="0rem">
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem">
+            <Text color="primary" fontWeight="700" fontSize="3xl" mb="1rem">
               Coordinators
             </Text>
           </Reveal>
@@ -49,10 +49,10 @@ const Contact: React.FC = () => {
                 name="Vivek Richhariya"
                 src="https://media.licdn.com/dms/image/C5103AQFnONBTZB2xLw/profile-displayphoto-shrink_100_100/0/1559818693668?e=1683158400&v=beta&t=Q9VTblTCbMtwcRJkNNu-ET_dHNeN4pv31v4lqOu7ii0"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Dr. Vivek Richhariya
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Professor, CSE
               </Text>
               <Flex>
@@ -94,10 +94,10 @@ const Contact: React.FC = () => {
                 name="Tripti Saxena"
                 src="https://media.licdn.com/dms/image/C5603AQFuCPPzHjosdA/profile-displayphoto-shrink_100_100/0/1616229712746?e=1683158400&v=beta&t=_wPY-Sxyw0MF6ple_RhHzfzOtkIb-npHhVCrlzAaZY8"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Dr. Tripti Saxena
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Associate Professor, CSE
               </Text>
               <Flex>
@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
           flexDirection="column"
         >
           <Reveal mt="5rem">
-            <Text color="primary" fontWeight="700" fontSize="5xl" mb="1rem" textAlign={"center"}>
+            <Text color="primary" fontWeight="700" fontSize="3xl" mb="1rem" textAlign={"center"}>
               Student Coordinators
             </Text>
           </Reveal>
@@ -161,10 +161,10 @@ const Contact: React.FC = () => {
                 name="Rahul Karda"
                 src="https://media.licdn.com/dms/image/D4D03AQFBa8_25JT-mw/profile-displayphoto-shrink_400_400/0/1672921604766?e=1683158400&v=beta&t=GIvnpr6v2KbES0uTQZcFGNVWDsVMtU6j7lxXDENKAGQ"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Rahul Karda
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Organizer
               </Text>
               <Flex>
@@ -208,10 +208,10 @@ const Contact: React.FC = () => {
                 name="Ayush Galphat"
                 src="https://media.licdn.com/dms/image/C4E03AQFzaToGkJZ6nw/profile-displayphoto-shrink_100_100/0/1660575106418?e=1683158400&v=beta&t=S2P-R9b2vHmN0RZmcvrUeAawkwuQH7R8kvqY_uba3K0"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Ayush Galphat
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Co-Organizer
               </Text>
               <Flex>
@@ -255,10 +255,10 @@ const Contact: React.FC = () => {
                 name="Rajkumar Malpani"
                 src="https://media.licdn.com/dms/image/D5603AQHIHHpW5qab-w/profile-displayphoto-shrink_100_100/0/1676827516415?e=1683158400&v=beta&t=3HApBL0LgrbEDetZYwRqupX-39-lOmhAmFoZvVoDwiE"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Rajkumar Malpani
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Co-Organizer
               </Text>
               <Flex>
@@ -300,10 +300,10 @@ const Contact: React.FC = () => {
                 name="Om Golhani"
                 src="https://media.licdn.com/dms/image/C4D03AQGssIl_CAIbHg/profile-displayphoto-shrink_100_100/0/1661688615586?e=1683158400&v=beta&t=A_V-QuFNb4wUPcruhNY4sTcd4GdYAdoaAzpWRdaA5Kk"
               />
-              <Text mt="1rem" fontSize="2xl">
+              <Text mt="1rem" fontSize="xl">
                 Om Golhani
               </Text>
-              <Text mb="1rem" fontSize="2xl">
+              <Text mb="1rem" fontSize="xl">
                 Co-Organizer
               </Text>
               <Flex>

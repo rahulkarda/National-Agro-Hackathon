@@ -29,15 +29,15 @@ const OurPartners: React.FC = () => {
           >
             <Box width={{ md: "50%" }}>
               <Text
-                mb={{ xs: "2rem", sm: "0" }}
+                mb={{ xs: "2rem", sm: "1rem" }}
                 mr={{ sm: "2rem" }}
                 color="white"
                 as="h1"
                 mt={{ xs: "1rem", md: "-3rem" }}
-                fontSize={{ xs: "2xl", lg: "3xl" }}
+                fontSize={{ xs: "2xl", lg: "1.5rem" }}
                 fontWeight="700"
               >
-                About National Agro Hackathon – 2023 Version 1.0
+                About National Agro Hackathon – 2023 <br /> Version 1.0
               </Text>
               <Text
                 textAlign="justify"
@@ -65,7 +65,7 @@ const OurPartners: React.FC = () => {
                   height="100%"
                   controls
                   light={true}
-                  url="https://www.youtube.com/watch?v=CtNDtUeVqd8"
+                  url="https://youtu.be/x5RkBWvpk6w"
                 />
               )}
             </Box>
@@ -74,7 +74,7 @@ const OurPartners: React.FC = () => {
             <Text
               color="white"
               fontWeight="700"
-              fontSize={{ xs: "2xl", lg: "3xl" }}
+              fontSize={{ xs: "2xl", lg: "1.5rem" }}
               mb="1rem"
             >
               ABOUT LNCT GROUP

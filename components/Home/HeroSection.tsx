@@ -19,6 +19,7 @@ const HeroSection: React.FC = () => {
       height={{ lg: "55vw" }}
       width="100%"
       p={{ xs: "40px 0 60px", sm: "140px 0 130px" }}
+      mt="1rem"
     >
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
@@ -30,17 +31,20 @@ const HeroSection: React.FC = () => {
             <Reveal
               display="flex"
               flexDirection={{ xs: "column-reverse", lg: "column" }}
-              left
             >
               <SimpleGrid
                 mt="1rem"
                 mb="2rem"
-                width={{ xs: "90%", md: "70%", lg: "150%" }}
-                columns={{ xs: 2, sm: 8 }}
+                width={{ xs: "90%", md: "70%", lg: "100%" }}
+                columns={{ xs: 2, sm: 6 }}
                 spacing={{ xs: 10, lg: 5 }}
+                alignItems="center"
               >
-                <Reveal>
+                {/* <Reveal>
                   <Img my="auto" width="100%" src="/assets/logo.png" />
+                </Reveal> */}
+                <Reveal>
+                  <Img my="auto" width="100%" src="/assets/Hackathon Club Logo.png"/>
                 </Reveal>
                 <Reveal>
                   <Img my="auto" width="100%" src="/assets/g20.png" />
@@ -55,36 +59,36 @@ const HeroSection: React.FC = () => {
                   <Img my="auto" width="100%" src="/assets/NBA.png" />
                 </Reveal>
                 <Reveal>
-                  <Img
-                    my="auto"
-                    width="100%"
-                    src="/assets/Hackathon Club Logo.png"
-                  />
-                </Reveal>
-                <Reveal>
                   <Img my="auto" width="100%" src="/assets/30.png" />
-                </Reveal>
-                {/* <Reveal>
-                  <Img my="auto" width="100%" src="/assets/" />
-                </Reveal> */}
-                
+                </Reveal> 
               </SimpleGrid>
               <Box>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "1.8rem" }}
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
                   fontWeight="700"
-                  textAlign={{ xs: "center", lg: "left" }}
+                  textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
                   lineHeight="1.1"
                 >
-                  LNCT Group of Colleges present,
+                  LNCT Group
                 </Text>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "3xl" }}
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
                   fontWeight="700"
-                  textAlign={{ xs: "center", lg: "left" }}
+                  textAlign={{ xs: "center", lg: "center" }}
+                  color="primary"
+                  lineHeight="1.1"
+                  mt="1rem"
+                >
+                  Presents
+                </Text>
+                <Text
+                  as="h1"
+                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
+                  fontWeight="700"
+                  textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
                   lineHeight="1.2"
                   mb={{ xs: "1rem", lg: "2rem" }}
@@ -92,7 +96,7 @@ const HeroSection: React.FC = () => {
                 >
                   National Agro Hackathon – 2023
                   <br />
-                  <Text as="span" fontSize={{ xs: "2xl", lg: "1.8rem" }}>
+                  <Text as="span" fontSize={{ xs: "2xl", lg: "1.5rem" }}>
                     Version 1.0
                   </Text>
                 </Text>
@@ -100,7 +104,7 @@ const HeroSection: React.FC = () => {
                   textAlign={{ xs: "center", lg: "left" }}
                   color="#14213d"
                   mb="1rem"
-                  fontSize={"xl"}
+                  fontSize={"1.2rem"}
                 >
                   LNCT Group Hackathon Club is organising a “National Agro Hackathon - 2023, Version 1.0”, aimed at bringing together a diverse group of individuals with a passion for agriculture to develop creative and innovative solutions to the challenges facing by this sector.
                 </Text>
@@ -108,7 +112,7 @@ const HeroSection: React.FC = () => {
                   textAlign={{ xs: "center", lg: "left" }}
                   color="#14213d"
                   // mb="1rem"
-                  fontSize={"xl"}
+                  fontSize={"1.2rem"}
                 >
                   The Agriculture Hackathon will provide a platform for participants to collaborate and work with like-minded individuals, learn from industry experts and gain valuable exposure to the latest technologies and trends in agriculture. 
                 </Text>
@@ -120,7 +124,7 @@ const HeroSection: React.FC = () => {
               delay={0.4}
               mt="3rem"
             >
-              <a href="" target="_blank">
+              <a href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
                 <Button
                   borderRadius="3px"
                   bg="primary"
@@ -140,8 +144,8 @@ const HeroSection: React.FC = () => {
             right
             delay={0.4}
             height={{ xs: "40%", sm: "auto" }}
-            width={{ lg: "52%" }}
-            mb={{ xs: "1rem", md: "0" }}
+            width={{ lg: "55%" }}
+            mb={{ xs: "1rem", md: "2rem" }}
           >
             <Carousel />
           </Reveal>
