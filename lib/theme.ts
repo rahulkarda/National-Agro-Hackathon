@@ -9,11 +9,11 @@ const breakpoints = {
 };
 
 const colors = {
-  primary: "#4800C2",
+  primary: "#478F0E",
   primaryLight: "#6835DA",
   background: "#F7F6FB",
   borderGray: "#CFCFCF",
-  primeYellow: "#FFDA57",
+  primeYellow: "#F2A005",
   iconGray: "#B0B0B0",
   textGray: "#666666",
   textBlack: "#000000FF",

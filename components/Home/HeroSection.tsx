@@ -65,7 +65,7 @@ const HeroSection: React.FC = () => {
               <Box>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
+                  fontSize={{ xs: "3xl", lg: "1.7rem" }}
                   fontWeight="700"
                   textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
@@ -75,7 +75,7 @@ const HeroSection: React.FC = () => {
                 </Text>
                 <Text
                   as="h1"
-                  fontSize={{ xs: "3xl", lg: "1.5rem" }}
+                  fontSize={{ xs: "3xl", lg: "1.3rem" }}
                   fontWeight="700"
                   textAlign={{ xs: "center", lg: "center" }}
                   color="primary"
@@ -126,13 +126,16 @@ const HeroSection: React.FC = () => {
             >
               <a href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
                 <Button
-                  borderRadius="3px"
-                  bg="primary"
+                  borderRadius="50px"
+                  bg="primeYellow"
                   color="white"
                   p="0 35px"
                   height="54px"
                   _hover={{
-                    bg: "linkedin.300",
+                    bg: "white",
+                    color: "primeYellow",
+                    border: "2px solid",
+                    borderColor: "primeYellow"
                   }}
                 >
                   Register Now

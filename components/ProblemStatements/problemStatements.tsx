@@ -14,6 +14,8 @@ import {
     UnorderedList,
 } from '@chakra-ui/react';
 import Link from 'next/link';
+// import { theme } from '../../lib/theme';
+
 
 const problemStatement: React.FC = () => {
 
@@ -56,7 +58,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     2 : Supply Chain & Agriculture Logistics. 
                                 </Heading>
                             </Box>
@@ -77,7 +79,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     3 : Post-Harvest, Food Technology & Value addition.
                                 </Heading>
                             </Box>
@@ -98,7 +100,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     4 : Waste to Wealth & Green Energy in Agriculture.
                                 </Heading>
                             </Box>
@@ -120,7 +122,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     5 : Miscellaneous
                                 </Heading>
                             </Box>
@@ -143,7 +145,7 @@ const problemStatement: React.FC = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                <Heading as='h2' size='1xl' color='rgb(28%, 0%, 76%)' fontSize={"xl"}>
+                                <Heading as='h2' size='1xl' color='primary' fontSize={"xl"}>
                                     6 : Open innovation
                                 </Heading>
                             </Box>

@@ -13,7 +13,7 @@ const OurPartners: React.FC = () => {
     <Box
       width="100%"
       py={{ xs: "60px", lg: "120px" }}
-      bg="linear-gradient(180deg,#6454f0 10%,#6ee2f5 110%)"
+      bg="linear-gradient(115.24deg, #478F0E 41.85%, #F2A005 152.29%);"
     >
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
@@ -114,7 +114,12 @@ const OurPartners: React.FC = () => {
           </Reveal>
           <Reveal width="100%">
             <a href="https://lnct.ac.in/" target="_blank">
-              <Button variant="outline" color="white" p="1.5rem 2rem">
+              <Button bg="primeYellow" color="white" p="1.5rem 2rem" borderRadius="50px"  _hover={{
+                    bg: "white",
+                    color: "primeYellow",
+                    border: "2px solid",
+                    borderColor: "primeYellow"
+                  }}>
                 Know More
               </Button>
             </a>

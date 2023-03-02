@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
       left="0"
       zIndex="sticky"
       width="100vw"
-      height={{md:"100", lg:"70px"}}
+      height={{xs:"80px", md:"90px", lg:"70px"}}
       px={{ md: "100px" }}
       boxShadow="0px 1px 20px 0px rgba(0,0,0,0.1)"
       alignContent={"center"}
@@ -153,13 +153,16 @@ const Navbar: React.FC = () => {
             <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
               <Button
                 // ml="1rem"
-                borderRadius="3px"
+                borderRadius="50px"
                 height="44px"
                 p="0 25px"
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 _hover={{
-                  bg: "linkedin.300",
+                  bg: "white",
+                  color: "primeYellow",
+                  border: "2px solid",
+                  borderColor: "primeYellow"
                 }}
               >
                 Register Now
@@ -171,7 +174,10 @@ const Navbar: React.FC = () => {
             aria-label="Open Navbar"
             onClick={onOpen}
             icon={<GiHamburgerMenu />}
-            bg="primary"
+            bg="primeYellow"
+            _hover={{
+                    bg: "primeYellow"
+                  }}
             color="white"
           />
           <Drawer placement="top" onClose={onClose} isOpen={isOpen}>
@@ -186,7 +192,10 @@ const Navbar: React.FC = () => {
                   aria-label="Close Navbar"
                   onClick={onClose}
                   icon={<IoCloseSharp />}
-                  bg="primary"
+                  bg="primeYellow"
+                  _hover={{
+                    bg: "primeYellow"
+                  }}
                   color="white"
                 />
               </DrawerHeader>
@@ -269,16 +278,19 @@ const Navbar: React.FC = () => {
 
                 <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
                   <Button
-                    borderRadius="3px"
+                    borderRadius="50px"
                     height="44px"
                     mt="0.5rem"
                     p="0 25px"
                     mb="1rem"
                     width="150px"
                     color="white"
-                    bg="primary"
+                    bg="primeYellow"
                     _hover={{
-                      bg: "linkedin.300",
+                      bg: "white",
+                      color: "primeYellow",
+                      border: "2px solid",
+                      borderColor: "primeYellow"
                     }}
                   >
                     Register Now

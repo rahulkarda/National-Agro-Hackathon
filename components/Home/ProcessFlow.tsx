@@ -13,7 +13,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
-
+// import { theme } from "../../lib/theme";
 import Reveal from "../library/Reveal";
 
 const ProcessFlow: React.FC = () => {
@@ -51,11 +51,16 @@ const ProcessFlow: React.FC = () => {
                 {({ isExpanded }) => (
                   <>
                     <AccordionButton
+                      marginBottom={"0.5rem"}
+                      padding="0.5rem 3rem"
                       border="solid 1px"
                       borderColor="gray.100"
-                      borderRadius="4px"
+                      borderRadius="50px"
                       bg="primary"
-                      _hover={{ bg: "primary" }}
+                      _hover={{
+                        bg: "primary",
+                        // border: "1px solid yellow"
+                      }}
                     >
                       <Box
                         fontSize="2xl"
@@ -73,7 +78,7 @@ const ProcessFlow: React.FC = () => {
                         )}
                       </Text>
                     </AccordionButton>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} padding="0.5rem 3rem">
                       <Text fontSize="1.4rem">
                       Regular Students of HEI's pursuing "Graduate/Post-Graduate/Ph.D" will be able to showcase their talent and generate out-of-the-box open innovation ideas.
                       </Text>
@@ -87,11 +92,16 @@ const ProcessFlow: React.FC = () => {
                 {({ isExpanded }) => (
                   <>
                     <AccordionButton
+                      marginBottom={"0.5rem"}
+                      padding="0.5rem 3rem"
                       border="solid 1px"
                       borderColor="gray.100"
-                      borderRadius="4px"
                       bg="primary"
-                      _hover={{ bg: "primary" }}
+                      borderRadius="50px"
+                      _hover={{
+                        bg: "primary",
+                        // border: "1px solid yellow"
+                      }}
                     >
                       <Box
                         fontSize="2xl"
@@ -109,7 +119,7 @@ const ProcessFlow: React.FC = () => {
                         )}
                       </Text>
                     </AccordionButton>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} padding="0.5rem 3rem">
                       <UnorderedList fontSize="1.4rem">
                         <ListItem>
                         All team members should be from same college. However, members from different branches of the same college/ institute are encouraged to form a team. 
@@ -138,11 +148,16 @@ const ProcessFlow: React.FC = () => {
                 {({ isExpanded }) => (
                   <>
                     <AccordionButton
+                      marginBottom={"0.5rem"}
+                      padding="0.5rem 3rem"
                       border="solid 1px"
                       borderColor="gray.100"
-                      borderRadius="4px"
+                      borderRadius="50px"
                       bg="primary"
-                      _hover={{ bg: "primary" }}
+                      _hover={{
+                        bg: "primary",
+                        // border: "1px solid yellow"
+                      }}
                     >
                       <Box
                         fontSize="2xl"
@@ -160,7 +175,7 @@ const ProcessFlow: React.FC = () => {
                         )}
                       </Text>
                     </AccordionButton>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} padding="0.5rem 3rem">
                       <Text fontSize="1.4rem">
                         The cash prize will be given to each category
                       </Text>
@@ -179,11 +194,16 @@ const ProcessFlow: React.FC = () => {
                 {({ isExpanded }) => (
                   <>
                     <AccordionButton
+                      marginBottom={"0.5rem"}
+                      padding="0.5rem 3rem"
                       border="solid 1px"
                       borderColor="gray.100"
-                      borderRadius="4px"
+                      borderRadius="50px"
                       bg="primary"
-                      _hover={{ bg: "primary" }}
+                      _hover={{
+                        bg: "primary",
+                        // border: "1px solid yellow"
+                      }}
                     >
                       <Box
                         fontSize="2xl"
@@ -201,7 +221,7 @@ const ProcessFlow: React.FC = () => {
                         )}
                       </Text>
                     </AccordionButton>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} padding="0.5rem 3rem">
                       <UnorderedList fontSize="xl">
                         <ListItem>
                           Idea Submission Deadline: 18 March, 2023
@@ -244,13 +264,16 @@ const ProcessFlow: React.FC = () => {
           >
             <a href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
               <Button
-                borderRadius="3px"
-                bg="primary"
+                borderRadius="50px"
+                bg="primeYellow"
                 color="white"
                 p="0 35px"
-                height="54px"
+                height="50px"
                 _hover={{
-                  bg: "linkedin.300",
+                  bg: "white",
+                  color: "primeYellow",
+                  border: "2px solid",
+                  borderColor: "primeYellow"
                 }}
               >
                 Register Now
