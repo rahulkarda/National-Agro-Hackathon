@@ -38,38 +38,38 @@ const HeroSection: React.FC = () => {
             <Table
               mt="2rem"
               color="primary"
-              border="solid 1px #390099"
+              border="solid 1px black"
               borderRadius="4px"
               variant="simple"
             >
               <Tbody>
                 <Tr>
-                  <Td borderTopLeftRadius="4px" border="solid 1px #390099">
+                  <Td borderTopLeftRadius="4px" border="solid 1px black">
                     Chief Patron
                   </Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">
                     Shri J.N. Chouksey, Chairman, LNCT Group
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td border="solid 1px #390099">Patron(s)</Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">Patron(s)</Td>
+                  <Td border="solid 1px black">
                     Dr. Anupam Chouksey, Secretary, LNCT Group
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td border="solid 1px #390099">Convener</Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">Convener</Td>
+                  <Td border="solid 1px black">
                     Dr. Ashok Kumar Rai, Director Administration
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td border="solid 1px #390099">SPOC</Td>
-                  <Td border="solid 1px #390099">Dr. Vivek Richhariya</Td>
+                  <Td border="solid 1px black">SPOC</Td>
+                  <Td border="solid 1px black">Dr. Vivek Richhariya</Td>
                 </Tr>
                 <Tr>
-                  <Td border="solid 1px #390099">Organizing Member</Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">Organizing Member</Td>
+                  <Td border="solid 1px black">
                     <SimpleGrid
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
@@ -82,8 +82,8 @@ const HeroSection: React.FC = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td border="solid 1px #390099">Technical Committee</Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">Technical Committee</Td>
+                  <Td border="solid 1px black">
                     <SimpleGrid
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
@@ -124,16 +124,16 @@ const HeroSection: React.FC = () => {
             <Table
               mt="2rem"
               color="primary"
-              border="solid 1px #390099"
+              border="solid 1px black"
               borderRadius="4px"
               variant="simple"
             >
               <Tbody>
                 <Tr>
-                  <Td borderTopLeftRadius="4px" border="solid 1px #390099">
+                  <Td borderTopLeftRadius="4px" border="solid 1px black">
                     Technical Committee
                   </Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">
                     <SimpleGrid
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
@@ -144,10 +144,10 @@ const HeroSection: React.FC = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td borderTopLeftRadius="4px" border="solid 1px #390099">
+                  <Td borderTopLeftRadius="4px" border="solid 1px black">
                     Organizing Committee
                   </Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">
                     <SimpleGrid
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
@@ -162,14 +162,15 @@ const HeroSection: React.FC = () => {
                       <Text>Kartik Singh Kushwah</Text>
                       <Text>Kartik Sahu</Text>
                       <Text>Jui Kamone</Text>
+                      <Text>Jahnvi Chhabra</Text>
                     </SimpleGrid>
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td borderTopLeftRadius="4px" border="solid 1px #390099">
+                  <Td borderTopLeftRadius="4px" border="solid 1px black">
                     Promotion Committee
                   </Td>
-                  <Td border="solid 1px #390099">
+                  <Td border="solid 1px black">
                     <SimpleGrid
                       columns={{ xs: 1, sm: 4 }}
                       spacing={{ xs: 5, lg: 5 }}
@@ -179,7 +180,7 @@ const HeroSection: React.FC = () => {
                       <Text>Princess Soni</Text>
                       <Text>Ayush Galphat</Text>
                       <Text>Aaditya Agarwal</Text>
-                      <Text>Raj Malpani</Text>
+                      <Text>Jahnvi Chhabra</Text>
                       <Text></Text>
                       <Text></Text>
                     </SimpleGrid>
