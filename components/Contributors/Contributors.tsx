@@ -155,7 +155,7 @@ const HeroSection: React.FC = () => {
                       <Text>Rahul Karda</Text>
                       <Text>Varsha Sharma</Text>
                       <Text>Ayush Galphat</Text>
-                      <Text>Rajkumar Malpani</Text>
+                      <Text>Raj Malpani</Text>
                       <Text>Princess Soni</Text>
                       <Text>Om Golhani</Text>
                       <Text>Raj Raghuwanshi</Text>
@@ -179,7 +179,7 @@ const HeroSection: React.FC = () => {
                       <Text>Princess Soni</Text>
                       <Text>Ayush Galphat</Text>
                       <Text>Aaditya Agarwal</Text>
-                      <Text>Rajkumar Malpani</Text>
+                      <Text>Raj Malpani</Text>
                       <Text></Text>
                       <Text></Text>
                     </SimpleGrid>
