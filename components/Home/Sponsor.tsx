@@ -47,7 +47,7 @@ const Sponsor: React.FC = () => {
             >
               <Icon
                 ml="1rem"
-                bg="primary"
+                bg="primeYellow"
                 color="white"
                 p="2"
                 width={12}
@@ -62,7 +62,7 @@ const Sponsor: React.FC = () => {
             >
               <Icon
                 ml="1rem"
-                bg="primary"
+                bg="primeYellow"
                 color="white"
                 p="2"
                 width={12}
@@ -74,7 +74,7 @@ const Sponsor: React.FC = () => {
             <a href="https://hackathonclub.lnct.ac.in/" target="_blank">
               <Icon
                 ml="1rem"
-                bg="primary"
+                bg="primeYellow"
                 color="white"
                 p="2"
                 width={12}
@@ -86,7 +86,7 @@ const Sponsor: React.FC = () => {
             <a href="mailto:hackathon@lnct.ac.in">
               <Icon
                 ml="1rem"
-                bg="primary"
+                bg="primeYellow"
                 color="white"
                 p="2"
                 width={12}

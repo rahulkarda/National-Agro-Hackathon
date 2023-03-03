@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Vivek Richhariya"
                 src="https://media.licdn.com/dms/image/C5103AQFnONBTZB2xLw/profile-displayphoto-shrink_100_100/0/1559818693668?e=1683158400&v=beta&t=Q9VTblTCbMtwcRJkNNu-ET_dHNeN4pv31v4lqOu7ii0"
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:vivekr@lnct.ac.in?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                 <a href="tel:9826856015">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Tripti Saxena"
                 src="https://media.licdn.com/dms/image/C5603AQFuCPPzHjosdA/profile-displayphoto-shrink_100_100/0/1616229712746?e=1683158400&v=beta&t=_wPY-Sxyw0MF6ple_RhHzfzOtkIb-npHhVCrlzAaZY8"
@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:triptis@lnct.ac.in?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -115,7 +115,7 @@ const Contact: React.FC = () => {
                 <a href="tel:9753485817">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -156,7 +156,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Rahul Karda"
                 src="https://media.licdn.com/dms/image/D4D03AQFBa8_25JT-mw/profile-displayphoto-shrink_400_400/0/1672921604766?e=1683158400&v=beta&t=GIvnpr6v2KbES0uTQZcFGNVWDsVMtU6j7lxXDENKAGQ"
@@ -170,7 +170,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:rahulkarda2002@gmail.com?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -182,7 +182,7 @@ const Contact: React.FC = () => {
                 <a href="tel:7389589990">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Ayush Galphat"
                 src="https://media.licdn.com/dms/image/C4E03AQFzaToGkJZ6nw/profile-displayphoto-shrink_100_100/0/1660575106418?e=1683158400&v=beta&t=S2P-R9b2vHmN0RZmcvrUeAawkwuQH7R8kvqY_uba3K0"
@@ -217,7 +217,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:ayushgalphat@gmail.com?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -229,7 +229,7 @@ const Contact: React.FC = () => {
                 <a href="tel:9098698413">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -250,7 +250,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Rajkumar Malpani"
                 src="https://media.licdn.com/dms/image/D5603AQHIHHpW5qab-w/profile-displayphoto-shrink_100_100/0/1676827516415?e=1683158400&v=beta&t=3HApBL0LgrbEDetZYwRqupX-39-lOmhAmFoZvVoDwiE"
@@ -264,7 +264,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:rajkm9111@gmail.com?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -276,7 +276,7 @@ const Contact: React.FC = () => {
                 <a href="tel:7509909271">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -295,7 +295,7 @@ const Contact: React.FC = () => {
             >
               <Avatar
                 color="white"
-                bg="primary"
+                bg="primeYellow"
                 size="2xl"
                 name="Om Golhani"
                 src="https://media.licdn.com/dms/image/C4D03AQGssIl_CAIbHg/profile-displayphoto-shrink_100_100/0/1661688615586?e=1683158400&v=beta&t=A_V-QuFNb4wUPcruhNY4sTcd4GdYAdoaAzpWRdaA5Kk"
@@ -309,7 +309,7 @@ const Contact: React.FC = () => {
               <Flex>
                 <a href="mailto:omgolhani3604@gmail.com?subject=Query Regarding Hackathon">
                   <Icon
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
@@ -321,7 +321,7 @@ const Contact: React.FC = () => {
                 <a href="tel:9424963604">
                   <Icon
                     ml="1rem"
-                    bg="primary"
+                    bg="primeYellow"
                     color="white"
                     p="2"
                     width={12}
