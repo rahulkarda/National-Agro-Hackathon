@@ -18,7 +18,7 @@ import Reveal from "../library/Reveal";
 
 const Sponsor: React.FC = () => {
   return (
-    <Box width="100%" py={{ xs: "60px", lg: "120px" }}>
+    <Box width="100%" py={{ xs: "60px", lg: "40px" }}>
       <Container maxWidth="1440px" px={{ xs: "20px", lg: "80px" }}>
         <Flex
           alignItems="center"
@@ -131,7 +131,7 @@ const Sponsor: React.FC = () => {
           flexDirection="row"
           mt="0rem"
           flexWrap={{ xs: "wrap" }}
-          // p="2rem"
+          mb="0"
         >
           <Reveal display="flex" flexWrap={{xs:"wrap", lg:"wrap"}} justifyContent="space-around">
             <Img my={{xs:"auto", md:"auto", lg:"auto"}} mx="3rem" maxWidth={{xs:"30%", lg:"15%"}}  src="/assets/kliclogo.png" />
