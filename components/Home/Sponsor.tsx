@@ -96,56 +96,57 @@ const Sponsor: React.FC = () => {
               />
             </a>
           </Reveal>
-          
         </Flex>
       </Container>
 
       <Flex
-          alignItems="center"
-          justifyContent="center"
-          flexDirection="column"
-          mt="3rem"
-          flexWrap="wrap"
-        >
-      <Reveal>
-            <Text color="primary" fontWeight="700" fontSize="4xl" mb="3rem">
-              Sponsored By
-            </Text>
-          </Reveal>
-      {/* <Box width={{ lg: "70%" }}> */}
-      {/* <Reveal
+        alignItems="center"
+        justifyContent="center"
+        flexDirection="column"
+        mt="3rem"
+        flexWrap="wrap"
+      >
+        <Reveal>
+          <Text color="primary" fontWeight="700" fontSize="4xl" mb="3rem">
+            Sponsored By
+          </Text>
+        </Reveal>
+        {/* <Box width={{ lg: "70%" }}> */}
+        {/* <Reveal
               display="flex"
               flexDirection={{ xs: "column", lg: "row" }}
               left
               // justifyContent="space-evenly"
             > */}
-              {/* <SimpleGrid
+        {/* <SimpleGrid
                 mt="1rem"
                 mb="2rem"
                 width={{ xs: "90%", md: "70%", lg: "150%" }}
                 columns={{ xs: 1, sm: 5 }}
                 spacing={{ xs: 10, lg: 5 }}
               > */}
-              <Flex
+        <Flex
           alignItems="center"
-          justifyContent="space-between"
+          justifyContent="space-around"
           flexDirection="row"
           mt="0rem"
+          flexWrap={{ xs: "wrap" }}
+          // p="2rem"
         >
-                <Reveal>
-                  <Img my="auto" width="80%" src="/assets/kliclogo.png" />
-                </Reveal>
-                <Reveal>
-                  <Img my="auto" width="100%" src="/assets/anupamlogo.jpeg" />
-                </Reveal>
-                
-                </Flex>
-              {/* </SimpleGrid> */}
-              {/* </Reveal> */}
-              {/* </Box> */}
-    </Flex>
+          <Reveal display="flex" flexWrap={{xs:"wrap", lg:"wrap"}} justifyContent="space-around">
+            <Img my={{xs:"auto", md:"auto", lg:"auto"}} mx="3rem" maxWidth="15%"  src="/assets/kliclogo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx="3rem" maxWidth="15%"  src="/assets/anupamlogo.jpeg" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx="3rem" maxWidth="15%" src="/assets/pspl.png" />
+            <Img my={{xs:"auto", md:"auto", lg:"auto"}} mx="3rem" maxWidth="20%"  src="/assets/jjpl.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx="3rem" maxWidth="15%" src="/assets/Ananjay.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx="3rem" maxWidth="15%" src="/assets/kala kunj.png" />
+          </Reveal>    
+        </Flex>
+        {/* </SimpleGrid> */}
+        {/* </Reveal> */}
+        {/* </Box> */}
+      </Flex>
     </Box>
-    
   );
 };
 
