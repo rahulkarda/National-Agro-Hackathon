@@ -150,7 +150,8 @@ const Navbar: React.FC = () => {
                 About Us
               </Text>
             </Link>
-            <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
+            {/* <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank"> */}
+            <Link href="/result">
               <Button
                 // ml="1rem"
                 borderRadius="50px"
@@ -165,7 +166,8 @@ const Navbar: React.FC = () => {
                   borderColor: "primeYellow"
                 }}
               >
-                Register Now
+                {/* Register Now */}
+                Results
               </Button>
             </Link>
           </Flex>
@@ -276,7 +278,8 @@ const Navbar: React.FC = () => {
                   </Text>
                 </Link>
 
-                <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank">
+                {/* <Link href="https://docs.google.com/forms/d/1FavIfjRwoKrMSjKz4mBV10UKIbiuJ1WMT7qyCKWGOkM/viewform" target="_blank"> */}
+                <Link href="/result">
                   <Button
                     borderRadius="50px"
                     height="44px"
@@ -293,7 +296,8 @@ const Navbar: React.FC = () => {
                       borderColor: "primeYellow"
                     }}
                   >
-                    Register Now
+                    {/* Register Now */}
+                    Results
                   </Button>
                 </Link>
               </DrawerBody>
