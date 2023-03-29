@@ -134,13 +134,16 @@ const Sponsor: React.FC = () => {
           mb="0"
         >
           <Reveal display="flex" flexWrap={{xs:"wrap", lg:"wrap"}} justifyContent="space-around">
-            <Img my={{xs:"auto", md:"auto", lg:"auto"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}}  src="/assets/kliclogo.png" />
-            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}}  src="/assets/mp_startup_center_logo.png" />
-            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"25%", lg:"10%"}}  src="/assets/AIIC.png" />
+            <Img my={{xs:"auto", md:"auto", lg:"auto"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/kliclogo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/mp_startup_center_logo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"25%", lg:"10%"}} src="/assets/AIIC.png" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/pspl.png" />
-            <Img my={{xs:"1rem", md:"auto", lg:"auto"}} mx={{lg:"3rem"}} maxWidth={{xs:"50%", lg:"20%"}}  src="/assets/jjpl.png" />
+            <Img my={{xs:"1rem", md:"auto", lg:"auto"}} mx={{lg:"3rem"}} maxWidth={{xs:"50%", lg:"20%"}} src="/assets/jjpl.png" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/Ananjay.png" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/kala kunj.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"20%", lg:"10%"}} src="/assets/clueless_site_logo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/techgig_logo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/lwt_logo.png" />
           </Reveal>    
         </Flex>
         {/* </SimpleGrid> */}
