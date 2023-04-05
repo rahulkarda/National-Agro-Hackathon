@@ -143,6 +143,7 @@ const Sponsor: React.FC = () => {
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/kala kunj.png" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"20%", lg:"10%"}} src="/assets/clueless_site_logo.png" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/techgig_logo.png" />
+            <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/internshala_logo.jpg" />
             <Img my={{xs:"1rem", md:"2rem", lg:"3rem"}} mx={{lg:"3rem"}} maxWidth={{xs:"30%", lg:"15%"}} src="/assets/lwt_logo.png" />
           </Reveal>    
         </Flex>
